@@ -1,5 +1,6 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 interface Page {
-  info: object,
+  info: any,
   content: JSX.Element,
 }
 

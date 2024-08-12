@@ -11,7 +11,6 @@ function App() {
     // console.log()
     const greetings = "Hello, World"
     console.log(greetings)
-    
   });
 
   useEffect(() => {
