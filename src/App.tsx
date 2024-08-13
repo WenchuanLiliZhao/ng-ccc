@@ -1,10 +1,10 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import "./AppStyle/_app.scss"
 
 import { useState, useEffect } from 'react'
 import { BrowserRouter, Routes, Route, } from "react-router-dom";
-import AllPages from "./Pages/AllPages";
-
+import Channels from "./Pages/Channels/Channels";
+import ChannelLayout from "./Pages/_Templates/ChannelLayout";
+import Channel from "./Pages/_Templates/Channel";
 
 function App() {
   useState(() => {
@@ -25,18 +25,19 @@ function App() {
         <Routes>
           {/* <Route path="*" element={<NotFound />}/> */}
 
-          <Route index element={AllPages.RootPage_Home.content} />
+          <Route index element={<>
+              <ChannelLayout data={Channels.Channel_Home} />
+            </>} />
 
-          {Object.values(AllPages).map((item: any, i: any) => (
+          {Object.values(Channels).map((item: Channel, i: number) => (
             <Route
               key = {`${item}${i}`}
 
-              path = {
-                item.info.key != "*" ?
-                `/${item.info.key}`: "*"
-              }
+              path = {`/${item.info.key}`}
 
-              element = {item.content}
+              element = {<>
+                <ChannelLayout data={item} />
+              </>}
             />
           ))}
         </Routes>
