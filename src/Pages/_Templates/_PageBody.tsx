@@ -1,4 +1,4 @@
-import Divider_LatestUpdate from "../../Components/Divider/Divider_LatestUpdate";
+import Divider_LatestUpdate from "../../Components/Divider/LatestUpdate";
 import TopNav from "../../Components/Navigation/TopNav";
 import SiteInfo from "../../SiteInfo";
 import "./_PageBody.scss";
@@ -11,11 +11,13 @@ interface Props {
 const PageBody: React.FC<Props> = ({ children }) => {
   return (<>
     <div className="page-body">
-      <main>
+      <div className="page-body-container">
         <Divider_LatestUpdate date={SiteInfo.latest_update} language="en"/>
         <TopNav />
-        {children}
-      </main>
+        <main className="page-body-main">
+          {children}
+        </main>
+      </div>
     </div>
   </>)
 }

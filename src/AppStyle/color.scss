@@ -2,13 +2,13 @@
   --text-color--main: #333333;
   --text-color--main-trans: rgba(0, 0, 0, 0.8);
 
-  --bg-color-main: white;
+  --bg-color--main: white;
 
-  --color-sig-main: #D62831;
-  --color-sig-sec: #F5CBCE;
+  --color-sig--main: #D62831;
+  --color-sig--sec: #F5CBCE;
 }
 
 html, body {
   color: var(--text-color--main);
-  background-color: var(--bg-color-main);
+  background-color: var(--bg-color--main);
 }
