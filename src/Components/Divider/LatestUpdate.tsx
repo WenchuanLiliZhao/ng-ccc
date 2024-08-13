@@ -4,14 +4,15 @@ import React from "react";
 import DateFormatter from "../Functions/DateFormatter";
 
 interface Props {
-  date: number[];
-  language: "zh" | "en";
+  date: number[],
+  language: "zh" | "en",
+  className?: string,
 }
 
-const Divider_LatestUpdate: React.FC<Props> = ({ date, language }) => {
+const Divider_LatestUpdate: React.FC<Props> = ({ date, language, className }) => {
   return (
     <>
-      <div className="divider-latest-update">
+      <div className={`divider-latest-update ${className}`}>
         <div className="divider-latest-update-left">
           <div className="line"></div>
           <div className="line"></div>
