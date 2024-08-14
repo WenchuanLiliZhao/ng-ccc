@@ -18,7 +18,7 @@ const DateFormatter: React.FC<DateFormatterProps> = ({ date, language }) => {
     }
   };
 
-  return <div>{formatDate()}</div>;
+  return <>{formatDate()}</>;
 };
 
 export default DateFormatter;

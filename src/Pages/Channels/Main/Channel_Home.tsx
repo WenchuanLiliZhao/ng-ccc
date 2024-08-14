@@ -1,3 +1,4 @@
+import Section_NewsClipping from "../../../Components/Sections/NewsClipping";
 import SiteInfo from "../../../SiteInfo";
 import Channel from "../../_Templates/Channel";
 
@@ -11,6 +12,7 @@ const Channel_Home: Channel = {
 
   content: (
     <>
+      <Section_NewsClipping/>
       <div id="lipsum">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
