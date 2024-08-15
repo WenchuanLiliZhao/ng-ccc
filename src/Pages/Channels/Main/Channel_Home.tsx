@@ -1,11 +1,11 @@
-// import Gallery_BigCards from "../../../Components/Sections/Galleries/BigCards";
-// import Gallery_MediumCards from "../../../Components/Sections/Galleries/MediumCards";
+import Gallery_BigCards from "../../../Components/Sections/Galleries/BigCards";
+import Gallery_MediumCards from "../../../Components/Sections/Galleries/MediumCards";
 import Section_NewsClipping from "../../../Components/Sections/NewsClipping";
-// import Section_SlidingCards from "../../../Components/Sections/SlidingCards";
+import Section_SlidingCards from "../../../Components/Sections/SlidingCards";
 import TitledSection from "../../../Components/Sections/TitledSection";
 import SiteInfo from "../../../SiteInfo";
 import Channel from "../../_Templates/Channel";
-// import Posts from "../../Posts/Posts";
+import Posts from "../../Posts/Posts";
 
 const Channel_Home: Channel = {
   info: {
@@ -21,21 +21,21 @@ const Channel_Home: Channel = {
 
   content: (
     <>
-      {/* <Section_SlidingCards
+      <Section_SlidingCards
         cards={[
           Posts.Post_WhereDidItComeFrom,
           Posts.Post_MoonFestival,
           Posts.Post_WhereDidItComeFrom,
           Posts.Post_WhereDidItComeFrom,
         ]}
-      /> */}
+      />
 
       <TitledSection
         title={"最新動態"}
         brief={"Lorem ipsum dolor sit amet, consectetur adipiscing elit"}
         body={
           <>
-            {/* <Gallery_MediumCards
+            <Gallery_MediumCards
               columnCount={3}
               posts={[
                 Posts.Post_WhereDidItComeFrom,
@@ -43,12 +43,12 @@ const Channel_Home: Channel = {
                 Posts.Post_WhereDidItComeFrom,
                 // Posts.Post_WhereDidItComeFrom,
               ]}
-            /> */}
+            />
           </>
         }
       />
 
-      {/* <TitledSection
+      <TitledSection
         title={"Latest Updates"}
         brief={"Lorem ipsum dolor sit amet, consectetur adipiscing elit"}
         body={
@@ -58,7 +58,7 @@ const Channel_Home: Channel = {
               Posts.Post_WhereDidItComeFrom,
           ]} />
         }
-      /> */}
+      />
 
       <Section_NewsClipping className="only-show-below-screen-size-1000" />
 
