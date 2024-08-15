@@ -1,16 +1,17 @@
 .gallery-medium-cards {
   display: block;
+  margin-top: 24px;
 
-  > .container {
+  & > .container {
     display: grid;
-    @media only screen and (max-width: 1000px) {
-      display: block;
-    }
-
     gap: 24px;
     padding-bottom: 24px;
 
-    > .card {
+    @media only screen and (max-width: 1000px) {
+      display: block;
+    }
+    
+    & > .card {
       @media only screen and (max-width: 1000px) {
         display: grid;
         grid-template-columns: 200px auto;
@@ -29,7 +30,13 @@
         grid-template-columns: 94px auto;
       }
 
-      > .cover {
+      &:hover {
+        & > .info > .container > .title {
+          text-decoration: underline;
+        }
+      }
+
+      & > .cover {
         position: relative;
         width: 100%;
         padding-top: 75%;
@@ -48,15 +55,15 @@
         }
       }
 
-      > .info {
+      & > .info {
         margin-top: 12px;
         @media only screen and (max-width: 1000px) {
           margin-top: 0;
           align-self: center;
         }
 
-        > .container {
-          > .title {
+        & > .container {
+          & > .title {
             font-size: 19px;
             line-height: 27px;
             font-weight: bold;
@@ -70,7 +77,7 @@
             -webkit-box-orient: vertical;
           }
 
-          > .brief {
+          & > .brief {
             margin-top: 4px;
             font-size: 14px;
             line-height: 22px;
@@ -90,7 +97,7 @@
             }
           }
 
-          > .caption {
+          & > .caption {
             margin-top: 8px;
             font-size: 14px;
             line-height: 22px;
@@ -102,7 +109,7 @@
             line-clamp: 1;
             -webkit-box-orient: vertical;
 
-            > .author-0 {
+            & > .author-0 {
               font-weight: bold;
             }
           }

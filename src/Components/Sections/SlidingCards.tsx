@@ -61,7 +61,7 @@ const Section_SlidingCards: React.FC<Props> = ({ cards }) => {
           style={{ columnGap: `${parameters.sliderGap}px` }}
         >
           {cards.map((item: Post, i: number) => (
-            <div key={`${item}${i}`} className={`slide`}>
+            <a key={`${item}${i}`} className={`slide`} href={`/${item.info.key}`}>
               <div className="cover">
                 <img src={item.info.cover} alt="" />
               </div>
@@ -75,7 +75,7 @@ const Section_SlidingCards: React.FC<Props> = ({ cards }) => {
                   />
                 </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>

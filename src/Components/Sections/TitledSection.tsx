@@ -8,14 +8,21 @@ interface Props {
 }
 
 const TitledSection: React.FC<Props> = ({ title, brief, body }) => {
-  return (
-    <section className="titled-section">
-      <header>
-        <div className="container">
+
+  const header = (
+    <header>
+      <div className="container">
         <h2 className="title">{title}</h2>
         <div className="brief">{brief}</div>
-        </div>
-      </header>
+      </div>
+    </header>
+  );
+
+  // const showHeader = title == "" || brief == ""
+
+  return (
+    <section className="titled-section">
+      {header}
 
       {body}
     </section>

@@ -5,12 +5,13 @@
   & > .slider {
     width: 100%;
     max-width: 800px;
-    @media only screen and (max-width: 1000px) {
-      max-width: 100%;
-    }
     /* overflow: hidden; */
     margin: 0 auto;
 
+    @media only screen and (max-width: 1000px) {
+      max-width: 100%;
+    }
+    
     & > .slides {
       display: flex;
       transition: transform 0.5s ease-in-out;
@@ -24,7 +25,13 @@
         // color: white;
         position: relative;
 
-        .cover {
+        &:hover {
+          & > .info > .title {
+            text-decoration: underline;
+          }
+        }
+
+        & > .cover {
           width: 100%;
           padding-top: 75%;
           img {
@@ -37,17 +44,17 @@
           }
         }
 
-        .info {
+        & > .info {
           text-align: center;
           margin-top: 24px;
-          .title {
+          & > .title {
             font-size: 24px;
             line-height: 40px;
             font-family: var(--ff-serif);
             font-weight: bold;
           }
 
-          .brief {
+          & > .brief {
             font-size: 16px;
             line-height: 24px;
             margin-top: 8px;
@@ -60,7 +67,7 @@
             -webkit-box-orient: vertical;
           }
 
-          .latest-update {
+          & > .latest-update {
             font-size: 14px;
             line-height: 22px;
             margin-top: 16px;

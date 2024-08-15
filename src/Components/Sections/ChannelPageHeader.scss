@@ -20,10 +20,11 @@
 
     & > .title {
       font-size: 48px;
+      line-height: 125%;
+
       @media only screen and (max-width: 800px) {
         font-size: 40px;
       }
-      line-height: 125%;
     }
 
     & > .brief {
