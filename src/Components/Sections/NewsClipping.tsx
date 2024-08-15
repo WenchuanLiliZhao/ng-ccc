@@ -3,10 +3,15 @@ import NewsClip from "../Cards/NewsClip";
 import Divider_Wave from "../Divider/Wave";
 import "./NewsClipping.scss";
 
-export default function Section_NewsClipping() {
+interface Props {
+  className?: string,
+}
+
+
+const Section_NewsClipping: React.FC<Props> = ({className}) => {
   return (
     <>
-      <section className="news-clipping">
+      <section className={`news-clipping ${className}`}>
         <div className="container">
           <div className="row">
             <NewsClip data={AllNewsByDate[0]} />
@@ -34,3 +39,5 @@ export default function Section_NewsClipping() {
     </>
   );
 }
+
+export default Section_NewsClipping

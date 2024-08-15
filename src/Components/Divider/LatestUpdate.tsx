@@ -19,7 +19,7 @@ const Divider_LatestUpdate: React.FC<Props> = ({ date, language, className }) =>
         </div>
         <div className="divider-latest-update-mid">
           <div className="divider-latest-update-text">
-            <DateFormatter date={date} language={language} />
+            Latest Update: <DateFormatter date={date} language={language} />
           </div>
         </div>
         <div className="divider-latest-update-right">

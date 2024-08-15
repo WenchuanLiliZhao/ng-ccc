@@ -1,18 +1,24 @@
-import React from 'react';
+import React from "react";
 import Channel from "./Channel";
-import PageBody from './_PageBody';
+import PageBody from "./_PageBody";
+import ChannelPageHeader from "../../Components/Sections/ChannelPageHeader";
 
 interface Props {
-  data: Channel,
+  data: Channel;
 }
-
 
 const ChannelLayout: React.FC<Props> = ({ data }) => {
-  return (<>
-    <PageBody>
-      {data.content}
-    </PageBody>
-  </>)
-}
+  return (
+    <>
+      <PageBody>
+        <>
+          {data.info.front != null ? data.info.front : (<></>)}
+          <ChannelPageHeader page={data} />
+          {data.content}
+        </>
+      </PageBody>
+    </>
+  );
+};
 
-export default ChannelLayout
+export default ChannelLayout;

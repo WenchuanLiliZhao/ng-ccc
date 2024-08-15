@@ -156,6 +156,8 @@
               overflow-x: hidden;
               & > .group {
                 padding-top: 8px;
+                display: grid;
+                row-gap: 8px;
                 
                 &:not(:last-of-type) {
                   padding-bottom: 12px;

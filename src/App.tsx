@@ -5,6 +5,8 @@ import { BrowserRouter, Routes, Route, } from "react-router-dom";
 import Channels from "./Pages/Channels/Channels";
 import ChannelLayout from "./Pages/_Templates/ChannelLayout";
 import Channel from "./Pages/_Templates/Channel";
+import Posts from "./Pages/Posts/Posts";
+import Post from "./Pages/_Templates/Posts";
 
 function App() {
   useState(() => {
@@ -38,6 +40,16 @@ function App() {
               element = {<>
                 <ChannelLayout data={item} />
               </>}
+            />
+          ))}
+
+          {Object.values(Posts).map((item: Post, i: number) => (
+            <Route
+              key = {`${item}${i}`}
+
+              path = {`/${item.info.key}`}
+
+              element = {item.content}
             />
           ))}
         </Routes>

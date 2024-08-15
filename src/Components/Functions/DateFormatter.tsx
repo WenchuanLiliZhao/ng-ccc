@@ -14,7 +14,7 @@ const DateFormatter: React.FC<DateFormatterProps> = ({ date, language }) => {
       return `${year}年${month}月${day}日`;
     } else if (language === "en") {
       const options: Intl.DateTimeFormatOptions = { year: "numeric", month: "short", day: "numeric" };
-      return dateObj.toLocaleDateString("en-US", options);
+      return dateObj.toLocaleDateString("en-GB", options);
     }
   };
 
