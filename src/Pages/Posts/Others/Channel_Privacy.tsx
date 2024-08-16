@@ -1,12 +1,11 @@
-import Page from "../../_Templates/Page";
+import Template_Page from "../../_Templates/Page";
 
-const Channel_Privacy: Page = {
+const Channel_Privacy: Template_Page = {
   info: {
     title: "Privacy",
     key: "privacy",
     brief: "",
     latest_update: [2024, 9, 1],
-    authors: [],
     cover: ""
   },
   content: (<></>)

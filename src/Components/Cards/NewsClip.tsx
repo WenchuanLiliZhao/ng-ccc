@@ -1,10 +1,10 @@
 import "./NewsClip.scss"
 
-import News from "../../Pages/_Templates/News"
+import Template_News from "../../Pages/_Templates/News"
 import DateFormatter from "../Functions/DateFormatter"
 
 interface Props {
-  data: News
+  data: Template_News
 }
 
 const NewsClip: React.FC<Props> = ({ data }) => {

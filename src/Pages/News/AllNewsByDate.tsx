@@ -1,7 +1,7 @@
 import AllNews from './AllNews';
-import News from '../_Templates/News';
+import Template_News from '../_Templates/News';
 
-const sortNewsByDate = (newsObject: { [key: string]: News }): News[] => {
+const sortNewsByDate = (newsObject: { [key: string]: Template_News }): Template_News[] => {
   // 将对象转为数组
   const newsArray = Object.values(newsObject);
   

@@ -1,8 +1,8 @@
 
 import SiteInfo from "../../../SiteInfo"
-import Page from "../../_Templates/Page"
+import Template_Page from "../../_Templates/Page"
 
-const Channel_Activity: Page = {
+const Channel_Activity: Template_Page = {
   info: {
     title: "活動",
     key: "service",

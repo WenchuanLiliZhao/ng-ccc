@@ -1,0 +1,42 @@
+.article-section {
+
+  margin: 0 auto;
+  padding: 24px 0;
+
+  &:not(:first-of-type) {
+    padding-top: 0;
+  }
+
+  &.normal {
+    max-width: 800px;
+  }
+
+  &.large {
+    max-width: 1080px;
+
+    @media only screen and (max-width: 1280px) {
+      max-width: 100%;
+    }
+  }
+
+  &.fill {
+    max-width: 100%;
+  }
+
+
+  h2 {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: var(--ff-serif);
+    margin: 24px 0;
+  }
+
+  h1, h2, h3 {
+    line-height: 125%;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 175%;
+  }
+}

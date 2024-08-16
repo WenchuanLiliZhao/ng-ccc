@@ -1,8 +1,8 @@
 
 import SiteInfo from "../../../SiteInfo"
-import Page from "../../_Templates/Page"
+import Template_Page from "../../_Templates/Page"
 
-const Channel_Hardware: Page = {
+const Channel_Hardware: Template_Page = {
   info: {
     title: "裝備",
     key: "hardware",

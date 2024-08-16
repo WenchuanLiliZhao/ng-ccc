@@ -1,6 +1,6 @@
-import Author from "../_Templates/Author"
+import Template_Page from "../_Templates/Page"
 
-const Suep: Author = {
+const Suep: Template_Page = {
   info: {
     title: "聯合電子出版",
     key: "suep",

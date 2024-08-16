@@ -11,11 +11,11 @@ interface Props {
 
 const PageBody: React.FC<Props> = ({ children }) => {
   return (<>
-    <div className="page-body">
+    <div className={`page-body`}>
       <div className="page-body-container">
         <Divider_LatestUpdate className="divider-latest-update-top" date={SiteInfo.latest_update} language="en"/>
         <TopNav />
-        <main className="page-body-main">
+        <main className={`page-body-main`}>
           {children}
         </main>
         <Footer />

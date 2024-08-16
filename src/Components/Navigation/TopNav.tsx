@@ -1,9 +1,9 @@
 import "./TopNav.scss";
 
-import Page from "../../Pages/_Templates/Page";
+import Template_Page from "../../Pages/_Templates/Page";
 import NavLink2Top from "../Links/NavLink2Top";
 import SiteInfo from "../../SiteInfo";
-import Channels from "../../Pages/Channels/Channels";
+import Channels from "../../Pages/Channels/_Channels";
 import { toggleClass } from "../Functions/ToggleClassName";
 import SocialMedia from "../../InfoTemplates/SocialMedia";
 
@@ -30,7 +30,7 @@ export default function TopNav() {
         </a>
 
         <div className="top-nav-items">
-          {channels.map((item: Page, i: number) => (
+          {channels.map((item: Template_Page, i: number) => (
             <NavLink2Top
               to={`/${item.info.key}`}
               className="top-nav-item channel hide-in-small-screen"
@@ -63,7 +63,7 @@ export default function TopNav() {
               <div className="container">
                 <div className="group">
                   <div className="title">頻道</div>
-                  {channels.map((item: Page, i: number) => (
+                  {channels.map((item: Template_Page, i: number) => (
                     <NavLink2Top
                       className="item"
                       key={`${item}${i}`}

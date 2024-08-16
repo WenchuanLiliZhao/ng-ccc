@@ -4,10 +4,10 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./SlidingCards.scss";
 import DateFormatter from "../Functions/DateFormatter";
-import Page from "../../Pages/_Templates/Page";
+import Template_Page from "../../Pages/_Templates/Page";
 
 interface Props {
-  cards: Page[];
+  cards: Template_Page[];
 }
 
 const parameters = {
@@ -62,7 +62,7 @@ const Section_SlidingCards: React.FC<Props> = ({ cards }) => {
           className="slides"
           style={{ columnGap: `${parameters.sliderGap}px` }}
         >
-          {cards.map((item: Page, i: number) => (
+          {cards.map((item: Template_Page, i: number) => (
             <a key={`${item}${i}`} className={`slide`} href={`/${item.info.key}`}>
               <div className="cover">
                 <img src={item.info.cover} alt="" />

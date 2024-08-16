@@ -1,7 +1,7 @@
 import SiteInfo from "../../../SiteInfo";
-import Page from "../../_Templates/Page";
+import Template_Page from "../../_Templates/Page";
 
-const Channel_Search: Page = {
+const Channel_Search: Template_Page = {
   info: {
     title: "搜索",
     key: "search",

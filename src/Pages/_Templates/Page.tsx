@@ -1,5 +1,6 @@
-import Author from "./Author";
-interface Page {
+import Template_AuthorsInPost from "./AuthorsInPost"
+
+interface Template_Page {
   info: {
     title: string,
     key: string,
@@ -13,10 +14,12 @@ interface Page {
 
     showHeader?: boolean,
     title_display?: JSX.Element,
-    authors?: {author: Author, role?: string}[],
+    authors?: Template_AuthorsInPost[],
+    
+    tags?: Template_Page[]
   },
 
   content: JSX.Element,
 }
 
-export default Page
+export default Template_Page

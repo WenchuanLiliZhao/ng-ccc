@@ -1,11 +1,11 @@
-import Page from "../../../Pages/_Templates/Page";
+import Template_Page from "../../../Pages/_Templates/Page";
 import Divider_Wave from "../../Divider/Wave";
 import DateFormatter from "../../Functions/DateFormatter";
 import "./MediumCards.scss";
 
 interface Props {
   columnCount: 3 | 4;
-  posts: Page[];
+  posts: Template_Page[];
 }
 
 const Gallery_MediumCards: React.FC<Props> = ({ columnCount, posts }) => {
@@ -17,7 +17,7 @@ const Gallery_MediumCards: React.FC<Props> = ({ columnCount, posts }) => {
           gridTemplateColumns: `repeat(${columnCount}, minmax(0, 1fr))`,
         }}
       >
-        {posts.map((item: Page, i: number) => (
+        {posts.map((item: Template_Page, i: number) => (
           <a className="card" key={`${item}${i}`} href={`/${item.info.key}`}>
             <div className="cover">
               <img src={item.info.cover} alt="" />
@@ -30,7 +30,7 @@ const Gallery_MediumCards: React.FC<Props> = ({ columnCount, posts }) => {
                 <div className="caption">
                   {item.info.authors != undefined ? (
                     <span className="author-0">
-                      {item.info.authors[0].author.info.title}
+                      {item.info.authors[0].data.info.title}
                     </span>
                   ) : (
                     ""

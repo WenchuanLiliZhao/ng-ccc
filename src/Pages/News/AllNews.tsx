@@ -1,6 +1,6 @@
-import News from "../_Templates/News";
+import Template_News from "../_Templates/News";
 
-const AllNews: { [key: string]: News } = {
+const AllNews: { [key: string]: Template_News } = {
   news7: {
     info: {
       title: "News: Example 7",

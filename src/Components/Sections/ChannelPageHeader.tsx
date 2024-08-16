@@ -1,8 +1,8 @@
-import Page from "../../Pages/_Templates/Page";
+import Template_Page from "../../Pages/_Templates/Page";
 import "./ChannelPageHeader.scss";
 
 interface Props {
-  page: Page;
+  page: Template_Page;
 }
 
 const ChannelPageHeader: React.FC<Props> = ({ page }) => {
@@ -18,7 +18,7 @@ const ChannelPageHeader: React.FC<Props> = ({ page }) => {
             ) : (
               <></>
             )}
-            <h1 className="title">{
+            <h1 className="title font-size--h1">{
               page.info.title_display != undefined ?
               page.info.title_display :
               page.info.title

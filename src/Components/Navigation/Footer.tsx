@@ -1,7 +1,7 @@
 import SocialMedia from "../../InfoTemplates/SocialMedia";
-import Page from "../../Pages/_Templates/Page";
-import Channels from "../../Pages/Channels/Channels";
-import Posts from "../../Pages/Posts/Posts";
+import Template_Page from "../../Pages/_Templates/Page";
+import Channels from "../../Pages/Channels/_Channels";
+import Posts from "../../Pages/Posts/_Posts";
 import SiteInfo from "../../SiteInfo";
 import Divider_LatestUpdate from "../Divider/LatestUpdate";
 import "./Footer.scss";
@@ -41,7 +41,7 @@ export default function Footer() {
           <div className="links">
             <div className="group">
               <div className="title">網站頻道</div>
-              {footerChannels.map((item: Page, i: number) => (
+              {footerChannels.map((item: Template_Page, i: number) => (
                 <a
                   key={`${item}${i}`}
                   href={`/${item.info.key}`}
@@ -68,7 +68,7 @@ export default function Footer() {
 
             <div className="group">
               <div className="title">其他</div>
-              {footerOthers.map((item: Page, i: number) => (
+              {footerOthers.map((item: Template_Page, i: number) => (
                 <a
                   key={`${item}${i}`}
                   href={`/${item.info.key}`}

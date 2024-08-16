@@ -1,6 +1,6 @@
-interface SocialMedia {
+interface Template_SocialMedia {
   title: string;
   link: string;
 }
 
-export default SocialMedia
+export default Template_SocialMedia

@@ -1,8 +1,8 @@
 
 import SiteInfo from "../../../SiteInfo"
-import Page from "../../_Templates/Page"
+import Template_Page from "../../_Templates/Page"
 
-const Channel_Readings: Page = {
+const Channel_Readings: Template_Page = {
   info: {
     title: "閱讀",
     key: "nblib",

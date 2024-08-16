@@ -1,7 +1,7 @@
 import SiteInfo from "../../../SiteInfo";
-import Page from "../../_Templates/Page";
+import Template_Page from "../../_Templates/Page";
 
-const NotFound: Page = {
+const NotFound: Template_Page = {
   info: {
     title: "404 Not Found",
     key: "*",

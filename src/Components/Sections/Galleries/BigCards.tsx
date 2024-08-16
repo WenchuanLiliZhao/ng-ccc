@@ -3,17 +3,17 @@ import "./BigCards.scss";
 import React from "react";
 import DateFormatter from "../../Functions/DateFormatter";
 import Divider_Wave from "../../Divider/Wave";
-import Page from "../../../Pages/_Templates/Page";
+import Template_Page from "../../../Pages/_Templates/Page";
 
 interface Props {
-  posts: Page[];
+  posts: Template_Page[];
 }
 
 const Gallery_BigCards: React.FC<Props> = ({ posts }) => {
   return (
     <div className="gallery-big-cards">
       <div className="container">
-        {posts.map((item: Page, i: number) => (
+        {posts.map((item: Template_Page, i: number) => (
           <a key={`${item}${i}`} href={`/${item.info.key}`} className={`card`}>
             <div className="cover">
               <div className="container">
@@ -28,7 +28,7 @@ const Gallery_BigCards: React.FC<Props> = ({ posts }) => {
                 <div className="label">
                   {item.info.authors != undefined ? (
                     <span className="author-0">
-                      {item.info.authors[0].author.info.title}
+                      {item.info.authors[0].data.info.title}
                     </span>
                   ) : (
                     ""

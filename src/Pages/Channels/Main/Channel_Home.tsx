@@ -4,10 +4,10 @@ import Section_NewsClipping from "../../../Components/Sections/NewsClipping";
 import Section_SlidingCards from "../../../Components/Sections/SlidingCards";
 import TitledSection from "../../../Components/Sections/TitledSection";
 import SiteInfo from "../../../SiteInfo";
-import Page from "../../_Templates/Page";
-import Posts from "../../Posts/Posts";
+import Template_Page from "../../_Templates/Page";
+import Posts from "../../Posts/_Posts";
 
-const Channel_Home: Page = {
+const Channel_Home: Template_Page = {
   info: {
     title: "首頁",
     key: "",

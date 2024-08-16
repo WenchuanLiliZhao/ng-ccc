@@ -34,3 +34,13 @@ b, strong {
 em {
   font-style: italic;
 }
+
+[class*="font-size"] {
+  &[class*="--h1"] {
+    font-size: 48px;
+
+    @media only screen and (max-width: 800px) {
+      font-size: 40px;
+    }
+  }
+}

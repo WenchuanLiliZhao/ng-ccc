@@ -1,4 +1,4 @@
-interface News {
+interface Template_News {
   info: {
     title: string;
     key: string;
@@ -9,4 +9,4 @@ interface News {
   };
 }
 
-export default News;
+export default Template_News;

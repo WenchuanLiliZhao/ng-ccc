@@ -1,7 +1,7 @@
 import SiteInfo from "../../../SiteInfo"
-import Page from "../../_Templates/Page"
+import Template_Page from "../../_Templates/Page"
 
-const Channel_Contact: Page = {
+const Channel_Contact: Template_Page = {
   info: {
     title: "聯繫我們",
     key: "contact",

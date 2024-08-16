@@ -1,7 +1,7 @@
 import SiteInfo from "../../../SiteInfo";
-import Page from "../../_Templates/Page";
+import Template_Page from "../../_Templates/Page";
 
-const Channel_Resource: Page = {
+const Channel_Resource: Template_Page = {
   info: {
     title: "學科資源",
     key: "resource",

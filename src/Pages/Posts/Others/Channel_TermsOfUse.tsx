@@ -1,6 +1,6 @@
-import Page from "../../_Templates/Page";
+import Template_Page from "../../_Templates/Page";
 
-const Channel_TermsOfUse: Page = {
+const Channel_TermsOfUse: Template_Page = {
   info: {
     title: "Terms of Uses",
     key: "terms-of-uses",
@@ -8,7 +8,6 @@ const Channel_TermsOfUse: Page = {
     brief: "",
     cover: "",
     latest_update: [2024,9,1],
-    authors: [],
   },
   content: (<></>)
 }
