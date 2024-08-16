@@ -1,4 +1,5 @@
 import Divider_LatestUpdate from "../../Components/Divider/LatestUpdate";
+import Footer from "../../Components/Navigation/Footer";
 import TopNav from "../../Components/Navigation/TopNav";
 import SiteInfo from "../../SiteInfo";
 import "./_PageBody.scss";
@@ -17,7 +18,9 @@ const PageBody: React.FC<Props> = ({ children }) => {
         <main className="page-body-main">
           {children}
         </main>
+        <Footer />
       </div>
+      
     </div>
   </>)
 }

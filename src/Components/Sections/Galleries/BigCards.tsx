@@ -3,6 +3,7 @@ import "./BigCards.scss"
 import React from "react";
 import Post from "../../../Pages/_Templates/Posts";
 import DateFormatter from "../../Functions/DateFormatter";
+import Divider_Wave from "../../Divider/Wave";
 
 interface Props {
   posts: Post[];
@@ -15,7 +16,9 @@ const Gallery_BigCards: React.FC<Props> = ({ posts }) => {
         {posts.map((item: Post, i: number) => (
           <a key={`${item}${i}`} href={`/${item.info.key}`} className={`card`}>
             <div className="cover">
-              <img src={item.info.cover} alt={`cover of ${item.info.title}`} />
+              <div className="container">
+                <img src={item.info.cover} alt={`cover of ${item.info.title}`} />
+              </div>
             </div>
             <div className="info">
               <div className="container">
@@ -32,6 +35,7 @@ const Gallery_BigCards: React.FC<Props> = ({ posts }) => {
           </a>
         ))}
       </div>
+      <Divider_Wave />
     </div>
   );
 };
