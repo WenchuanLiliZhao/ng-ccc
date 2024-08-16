@@ -17,6 +17,8 @@ interface Site {
   latest_update: [number, number, number],
 
   social_medias: SocialMedias,
+
+  copyright: string,
 }
 
 export default Site

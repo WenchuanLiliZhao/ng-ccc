@@ -1,10 +1,10 @@
 import React from "react";
-import Channel from "./Channel";
+import Page from "./Page";
 import PageBody from "./_PageBody";
 import ChannelPageHeader from "../../Components/Sections/ChannelPageHeader";
 
 interface Props {
-  data: Channel;
+  data: Page;
 }
 
 const ChannelLayout: React.FC<Props> = ({ data }) => {

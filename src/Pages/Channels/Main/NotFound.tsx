@@ -1,11 +1,13 @@
-import Channel from "../../_Templates/Channel";
+import SiteInfo from "../../../SiteInfo";
+import Page from "../../_Templates/Page";
 
-const NotFound: Channel = {
+const NotFound: Page = {
   info: {
     title: "404 Not Found",
     key: "*",
     title_display: (<>404 Not Found</>),
-    brief: ""
+    brief: "",
+    latest_update: SiteInfo.latest_update,
   },
   content: (<>404 hahhahahh</>)
 }

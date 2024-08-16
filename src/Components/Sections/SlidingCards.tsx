@@ -3,11 +3,11 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect, useRef } from "react";
 import "./SlidingCards.scss";
-import Post from "../../Pages/_Templates/Posts";
 import DateFormatter from "../Functions/DateFormatter";
+import Page from "../../Pages/_Templates/Page";
 
 interface Props {
-  cards: Post[];
+  cards: Page[];
 }
 
 const parameters = {
@@ -62,7 +62,7 @@ const Section_SlidingCards: React.FC<Props> = ({ cards }) => {
           className="slides"
           style={{ columnGap: `${parameters.sliderGap}px` }}
         >
-          {cards.map((item: Post, i: number) => (
+          {cards.map((item: Page, i: number) => (
             <a key={`${item}${i}`} className={`slide`} href={`/${item.info.key}`}>
               <div className="cover">
                 <img src={item.info.cover} alt="" />

@@ -1,13 +1,14 @@
 import SiteInfo from "../../../SiteInfo"
-import Channel from "../../_Templates/Channel"
+import Page from "../../_Templates/Page"
 
-const Channel_Contact: Channel = {
+const Channel_Contact: Page = {
   info: {
     title: "聯繫我們",
     key: "contact",
     title_display: (<>聯繫我們</>),
     brief: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent augue metus, volutpat sed interdum quis, rutrum vel odio. Cras velit nisl, facilisis condimentum velit at, laoreet porttitor turpis. Integer luctus consequat sem vitae imperdiet.",
-    label: `${SiteInfo.title}`
+    label: `${SiteInfo.title}`,
+    latest_update: SiteInfo.latest_update,
   },
   content: (<>
     

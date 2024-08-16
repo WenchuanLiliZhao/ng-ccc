@@ -1,13 +1,15 @@
-import SiteInfo from "../../../SiteInfo"
-import Channel from "../../_Templates/Channel"
 
-const Channel_Hardware: Channel = {
+import SiteInfo from "../../../SiteInfo"
+import Page from "../../_Templates/Page"
+
+const Channel_Hardware: Page = {
   info: {
-    title: "學習硬件",
+    title: "裝備",
     key: "hardware",
-    title_display: (<>學習硬件</>),
+    title_display: (<>裝備</>),
     brief: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent augue metus, volutpat sed interdum quis, rutrum vel odio. Cras velit nisl, facilisis condimentum velit at, laoreet porttitor turpis. Integer luctus consequat sem vitae imperdiet.",
-    label: `${SiteInfo.title}`
+    label: `${SiteInfo.title}`,
+    latest_update: SiteInfo.latest_update,
   },
   content: (<></>)
 }

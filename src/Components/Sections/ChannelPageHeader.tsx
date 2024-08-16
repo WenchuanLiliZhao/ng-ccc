@@ -1,8 +1,8 @@
-import Channel from "../../Pages/_Templates/Channel";
+import Page from "../../Pages/_Templates/Page";
 import "./ChannelPageHeader.scss";
 
 interface Props {
-  page: Channel;
+  page: Page;
 }
 
 const ChannelPageHeader: React.FC<Props> = ({ page }) => {
@@ -18,7 +18,11 @@ const ChannelPageHeader: React.FC<Props> = ({ page }) => {
             ) : (
               <></>
             )}
-            <h1 className="title">{page.info.title_display}</h1>
+            <h1 className="title">{
+              page.info.title_display != undefined ?
+              page.info.title_display :
+              page.info.title
+              }</h1>
             <div className="brief">{page.info.brief}</div>
           </div>
         </div>

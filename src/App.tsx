@@ -4,9 +4,8 @@ import { useState, useEffect } from 'react'
 import { BrowserRouter, Routes, Route, } from "react-router-dom";
 import Channels from "./Pages/Channels/Channels";
 import ChannelLayout from "./Pages/_Templates/ChannelLayout";
-import Channel from "./Pages/_Templates/Channel";
+import Page from "./Pages/_Templates/Page";
 import Posts from "./Pages/Posts/Posts";
-import Post from "./Pages/_Templates/Posts";
 
 function App() {
   useState(() => {
@@ -31,7 +30,7 @@ function App() {
               <ChannelLayout data={Channels.Channel_Home} />
             </>} />
 
-          {Object.values(Channels).map((item: Channel, i: number) => (
+          {Object.values(Channels).map((item: Page, i: number) => (
             <Route
               key = {`${item}${i}`}
 
@@ -43,7 +42,7 @@ function App() {
             />
           ))}
 
-          {Object.values(Posts).map((item: Post, i: number) => (
+          {Object.values(Posts).map((item: Page, i: number) => (
             <Route
               key = {`${item}${i}`}
 

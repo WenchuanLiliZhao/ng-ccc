@@ -1,4 +1,21 @@
+import Today from "./Components/Functions/Today"
 import Site from "./InfoTemplates/SiteInfoTemplate"
+import SocialMedia from "./InfoTemplates/SocialMedia"
+
+const social_medias: { [key: string]: SocialMedia } = {
+  facebook: {
+    title: "Facebook",
+    link: "https://www.youtube.com/"
+  },
+  youtube: {
+    title: "YouTube",
+    link: "https://www.youtube.com/"
+  },
+  instagramm: {
+    title: "Instagramm",
+    link: "https://www.youtube.com/"
+  }
+};
 
 const SiteInfo: Site = {
   title: "中華文化有意思",
@@ -12,22 +29,9 @@ const SiteInfo: Site = {
 
   latest_update: [2024, 9, 1],
 
-  social_medias: {
-    facebook: {
-      title: "Facebook",
-      link: "https://www.youtube.com/"
-    },
+  social_medias: social_medias,
 
-    youtube: {
-      title: "Youtube",
-      link: "https://www.youtube.com/"
-    },
-
-    instagramm: {
-      title: "Instagramm",
-      link: "https://www.youtube.com/"
-    }
-  }
+  copyright: `©SINO UNITED ELECTRONIC PUBLISHING LTD ${String(Today[0])}`
 }
 
 export default SiteInfo

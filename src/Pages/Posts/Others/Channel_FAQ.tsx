@@ -1,6 +1,7 @@
-import Post from "../../_Templates/Posts";
 
-const Channel_FAQ: Post = {
+import Page from "../../_Templates/Page";
+
+const Channel_FAQ: Page = {
   info: {
     title: "幫助 & FAQ",
     key: "faq",

@@ -1,6 +1,6 @@
-import Post from "../../_Templates/Posts";
+import Page from "../../_Templates/Page";
 
-const Channel_TermsOfUse: Post = {
+const Channel_TermsOfUse: Page = {
   info: {
     title: "Terms of Uses",
     key: "terms-of-uses",

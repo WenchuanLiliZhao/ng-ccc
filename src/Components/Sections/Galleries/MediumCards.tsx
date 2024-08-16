@@ -1,11 +1,11 @@
-import Post from "../../../Pages/_Templates/Posts";
+import Page from "../../../Pages/_Templates/Page";
 import Divider_Wave from "../../Divider/Wave";
 import DateFormatter from "../../Functions/DateFormatter";
 import "./MediumCards.scss";
 
 interface Props {
   columnCount: 3 | 4;
-  posts: Post[];
+  posts: Page[];
 }
 
 const Gallery_MediumCards: React.FC<Props> = ({ columnCount, posts }) => {
@@ -17,7 +17,7 @@ const Gallery_MediumCards: React.FC<Props> = ({ columnCount, posts }) => {
           gridTemplateColumns: `repeat(${columnCount}, minmax(0, 1fr))`,
         }}
       >
-        {posts.map((item: Post, i: number) => (
+        {posts.map((item: Page, i: number) => (
           <a className="card" key={`${item}${i}`} href={`/${item.info.key}`}>
             <div className="cover">
               <img src={item.info.cover} alt="" />
@@ -28,9 +28,14 @@ const Gallery_MediumCards: React.FC<Props> = ({ columnCount, posts }) => {
                 <h3 className="title">{item.info.title}</h3>
                 <div className="brief">{item.info.brief}</div>
                 <div className="caption">
-                  <span className="author-0">
-                    {item.info.authors[0].author.info.title} ·{" "}
-                  </span>
+                  {item.info.authors != undefined ? (
+                    <span className="author-0">
+                      {item.info.authors[0].author.info.title}
+                    </span>
+                  ) : (
+                    ""
+                  )}
+
                   <span>
                     <DateFormatter
                       date={item.info.latest_update}

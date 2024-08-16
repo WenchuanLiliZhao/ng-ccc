@@ -1,6 +1,6 @@
 import "./TopNav.scss";
 
-import Channel from "../../Pages/_Templates/Channel";
+import Page from "../../Pages/_Templates/Page";
 import NavLink2Top from "../Links/NavLink2Top";
 import SiteInfo from "../../SiteInfo";
 import Channels from "../../Pages/Channels/Channels";
@@ -9,9 +9,10 @@ import SocialMedia from "../../InfoTemplates/SocialMedia";
 
 const channels = [
   Channels.Channel_Home,
-  Channels.Channel_Service,
-  Channels.Channel_Nblib,
+  Channels.Channel_Activity,
+  Channels.Channel_Readings,
   Channels.Channel_Hardware,
+  Channels.Channel_Resource,
   Channels.Channel_Contact,
 ];
 
@@ -29,7 +30,7 @@ export default function TopNav() {
         </a>
 
         <div className="top-nav-items">
-          {channels.map((item: Channel, i: number) => (
+          {channels.map((item: Page, i: number) => (
             <NavLink2Top
               to={`/${item.info.key}`}
               className="top-nav-item channel hide-in-small-screen"
@@ -62,7 +63,7 @@ export default function TopNav() {
               <div className="container">
                 <div className="group">
                   <div className="title">頻道</div>
-                  {channels.map((item: Channel, i: number) => (
+                  {channels.map((item: Page, i: number) => (
                     <NavLink2Top
                       className="item"
                       key={`${item}${i}`}

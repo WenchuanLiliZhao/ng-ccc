@@ -1,20 +1,88 @@
-import SiteInfo from "../../SiteInfo"
-import Divider_LatestUpdate from "../Divider/LatestUpdate"
-import "./Footer.scss"
+import SocialMedia from "../../InfoTemplates/SocialMedia";
+import Page from "../../Pages/_Templates/Page";
+import Channels from "../../Pages/Channels/Channels";
+import Posts from "../../Pages/Posts/Posts";
+import SiteInfo from "../../SiteInfo";
+import Divider_LatestUpdate from "../Divider/LatestUpdate";
+import "./Footer.scss";
+
+const footerChannels = [
+  Channels.Channel_Activity,
+  Channels.Channel_Readings,
+  Channels.Channel_Hardware,
+  Channels.Channel_Resource,
+];
+
+const footerSocialMedia = Object.values(SiteInfo.social_medias);
+
+const footerOthers = [
+  Channels.Channel_Contact,
+  Posts.Channel_Privacy,
+  Posts.Channel_TermsOfUse,
+];
 
 export default function Footer() {
-  return (<>
-    <footer className="site-footer">
-      <Divider_LatestUpdate date={SiteInfo.latest_update} language={"en"} />
+  return (
+    <>
+      <footer className="site-footer">
+        <Divider_LatestUpdate date={SiteInfo.latest_update} language={"en"} />
 
-      <div className="foot-body">
-        <div className="site-info">
-          info
+        <div className="foot-body">
+          <div className="site-info">
+            <div className="logo">
+              <div className="image">
+                <img src={SiteInfo.logo.image} alt="" />
+              </div>
+              <div className="text">{SiteInfo.logo.text}</div>
+            </div>
+            <div className="brief">{SiteInfo.brief}</div>
+          </div>
+
+          <div className="links">
+            <div className="group">
+              <div className="title">網站頻道</div>
+              {footerChannels.map((item: Page, i: number) => (
+                <a
+                  key={`${item}${i}`}
+                  href={`/${item.info.key}`}
+                  className="item"
+                >
+                  {item.info.title}
+                </a>
+              ))}
+            </div>
+
+            <div className="group">
+              <div className="title">社交媒體</div>
+              {footerSocialMedia.map((item: SocialMedia, i: number) => (
+                <a
+                  key={`${item}${i}`}
+                  href={`${item.link}`}
+                  className="item"
+                  target="_blank"
+                >
+                  {item.title}
+                </a>
+              ))}
+            </div>
+
+            <div className="group">
+              <div className="title">其他</div>
+              {footerOthers.map((item: Page, i: number) => (
+                <a
+                  key={`${item}${i}`}
+                  href={`/${item.info.key}`}
+                  className="item"
+                >
+                  {item.info.title}
+                </a>
+              ))}
+            </div>
+          </div>
         </div>
-        <div className="links">
-          links
-        </div>
-      </div>
-    </footer>
-  </>)
+
+        <div className="end">{SiteInfo.copyright}</div>
+      </footer>
+    </>
+  );
 }

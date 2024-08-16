@@ -4,16 +4,17 @@ import Section_NewsClipping from "../../../Components/Sections/NewsClipping";
 import Section_SlidingCards from "../../../Components/Sections/SlidingCards";
 import TitledSection from "../../../Components/Sections/TitledSection";
 import SiteInfo from "../../../SiteInfo";
-import Channel from "../../_Templates/Channel";
+import Page from "../../_Templates/Page";
 import Posts from "../../Posts/Posts";
 
-const Channel_Home: Channel = {
+const Channel_Home: Page = {
   info: {
     title: "首頁",
     key: "",
     brief: `${SiteInfo.brief}`,
     title_display: <>{SiteInfo.logo.text}</>,
     label: `聯合電子出版`,
+    latest_update: SiteInfo.latest_update,
     front: (
       <Section_NewsClipping className="only-show-above-screen-size-1000" />
     ),

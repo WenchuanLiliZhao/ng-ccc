@@ -1,13 +1,15 @@
-import SiteInfo from "../../../SiteInfo"
-import Channel from "../../_Templates/Channel"
 
-const Channel_Service: Channel = {
+import SiteInfo from "../../../SiteInfo"
+import Page from "../../_Templates/Page"
+
+const Channel_Activity: Page = {
   info: {
-    title: "體驗活動",
+    title: "活動",
     key: "service",
-    title_display: (<>中華文化體驗活動</>),
+    title_display: (<>活動</>),
     brief: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent augue metus, volutpat sed interdum quis, rutrum vel odio. Cras velit nisl, facilisis condimentum velit at, laoreet porttitor turpis. Integer luctus consequat sem vitae imperdiet.",
     label: `${SiteInfo.title}`,
+    latest_update: SiteInfo.latest_update,
   },
 
   content: (<>
@@ -15,4 +17,4 @@ const Channel_Service: Channel = {
   </>)
 }
 
-export default Channel_Service
+export default Channel_Activity

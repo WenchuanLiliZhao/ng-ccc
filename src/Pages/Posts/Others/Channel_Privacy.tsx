@@ -1,6 +1,6 @@
-import Post from "../../_Templates/Posts";
+import Page from "../../_Templates/Page";
 
-const Channel_Privacy: Post = {
+const Channel_Privacy: Page = {
   info: {
     title: "Privacy",
     key: "privacy",
