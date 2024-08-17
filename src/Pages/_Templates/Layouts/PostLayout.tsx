@@ -1,12 +1,12 @@
 import "./PostLayout.scss";
 
 import React from "react";
-import Template_Page from "../Page";
-import PageBody from "../_PageBody";
+import Template_Page from "../Template_Page";
+import PageBody from "../_Template_PageBody";
 import Tag from "../../../Components/Inlines/Tag";
 import Divider_Wave from "../../../Components/Divider/Wave";
 import SiteInfo from "../../../SiteInfo";
-import Template_AuthorsInPost from "../AuthorsInPost";
+import Template_AuthorsInPost from "../Template_AuthorsInPost";
 import DateFormatter from "../../../Components/Functions/DateFormatter";
 
 interface Props {

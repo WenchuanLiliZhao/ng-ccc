@@ -1,5 +1,5 @@
 import "./Tag.scss"
-import Template_Page from "../../Pages/_Templates/Page";
+import Template_Page from "../../Pages/_Templates/Template_Page";
 
 interface Props {
   data: Template_Page;

@@ -1,6 +1,6 @@
 import "./TopNav.scss";
 
-import Template_Page from "../../Pages/_Templates/Page";
+import Template_Page from "../../Pages/_Templates/Template_Page";
 import NavLink2Top from "../Links/NavLink2Top";
 import SiteInfo from "../../SiteInfo";
 import Channels from "../../Pages/Channels/_Channels";
@@ -16,12 +16,14 @@ const channels = [
   Channels.Channel_Contact,
 ];
 
-const socialMedia = Object.values(SiteInfo.social_medias)
+const socialMedia = Object.values(SiteInfo.social_medias);
 
 export default function TopNav() {
   return (
     <>
       <div className="top-nav">
+        <div className="mask-left"></div>
+        <div className="mask-right"></div>
         <a href="/" className="top-nav-logo">
           <div className="top-nav-logo-image">
             <img src={SiteInfo.logo.image} alt="" />
@@ -76,19 +78,15 @@ export default function TopNav() {
                 <div className="group">
                   <div className="title">社交媒體</div>
 
-                  {socialMedia.map(
-                    (item: SocialMedia, i: number) => (
-                      <NavLink2Top
-                        className="item"
-                        key={`${item}${i}`}
-                        to={item.link}
-                        children={item.title}
-                      />
-                    )
-                  )}
+                  {socialMedia.map((item: SocialMedia, i: number) => (
+                    <NavLink2Top
+                      className="item"
+                      key={`${item}${i}`}
+                      to={item.link}
+                      children={item.title}
+                    />
+                  ))}
                 </div>
-
-
               </div>
             </div>
           </div>

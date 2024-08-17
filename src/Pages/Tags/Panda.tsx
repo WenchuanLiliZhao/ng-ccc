@@ -1,5 +1,5 @@
 import Today from "../../Components/Functions/Today";
-import Template_Page from "../_Templates/Page";
+import Template_Page from "../_Templates/Template_Page";
 
 const Tag_Panda: Template_Page = {
   info: {

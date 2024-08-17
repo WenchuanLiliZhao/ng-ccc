@@ -1,4 +1,4 @@
-import Template_Page from "../../../Pages/_Templates/Page";
+import Template_Page from "../../../Pages/_Templates/Template_Page";
 import Divider_Wave from "../../Divider/Wave";
 import DateFormatter from "../../Functions/DateFormatter";
 import "./MediumCards.scss";

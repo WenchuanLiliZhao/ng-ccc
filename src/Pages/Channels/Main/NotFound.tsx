@@ -1,5 +1,5 @@
 import SiteInfo from "../../../SiteInfo";
-import Template_Page from "../../_Templates/Page";
+import Template_Page from "../../_Templates/Template_Page";
 
 const NotFound: Template_Page = {
   info: {

@@ -1,6 +1,6 @@
-import Template_Page from "../../_Templates/Page";
+import Template_Page from "../../_Templates/Template_Page";
 
-const Channel_TermsOfUse: Template_Page = {
+const Post_TermsOfUse: Template_Page = {
   info: {
     title: "Terms of Uses",
     key: "terms-of-uses",
@@ -12,4 +12,4 @@ const Channel_TermsOfUse: Template_Page = {
   content: (<></>)
 }
 
-export default Channel_TermsOfUse
+export default Post_TermsOfUse

@@ -4,7 +4,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./SlidingCards.scss";
 import DateFormatter from "../Functions/DateFormatter";
-import Template_Page from "../../Pages/_Templates/Page";
+import Template_Page from "../../Pages/_Templates/Template_Page";
 
 interface Props {
   cards: Template_Page[];

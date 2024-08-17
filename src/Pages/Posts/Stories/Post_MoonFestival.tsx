@@ -1,8 +1,8 @@
 import Sec from "../../_Templates/Layouts/InArticle/_ArticleSection";
 import Fig from "../../_Templates/Layouts/InArticle/Fig";
 import YouTubeVideo from "../../_Templates/Layouts/InArticle/YouTubeVideo";
-import Template_Page from "../../_Templates/Page";
-import Suep from "../../Authors/Suep";
+import Template_Page from "../../_Templates/Template_Page";
+import Author_Suep from "../../Authors/Author_Suep";
 
 const Post_MoonFestival: Template_Page = {
   info: {
@@ -14,7 +14,7 @@ const Post_MoonFestival: Template_Page = {
     brief: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     authors: [
       {
-        data: Suep,
+        data: Author_Suep,
       },
     ],
   },

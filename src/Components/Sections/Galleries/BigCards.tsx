@@ -3,7 +3,7 @@ import "./BigCards.scss";
 import React from "react";
 import DateFormatter from "../../Functions/DateFormatter";
 import Divider_Wave from "../../Divider/Wave";
-import Template_Page from "../../../Pages/_Templates/Page";
+import Template_Page from "../../../Pages/_Templates/Template_Page";
 
 interface Props {
   posts: Template_Page[];

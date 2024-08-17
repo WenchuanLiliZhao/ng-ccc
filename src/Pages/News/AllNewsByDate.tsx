@@ -1,5 +1,5 @@
 import AllNews from './AllNews';
-import Template_News from '../_Templates/News';
+import Template_News from '../_Templates/Template_News';
 
 const sortNewsByDate = (newsObject: { [key: string]: Template_News }): Template_News[] => {
   // 将对象转为数组

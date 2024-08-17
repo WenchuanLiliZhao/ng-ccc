@@ -1,6 +1,6 @@
 
 import SiteInfo from "../../../SiteInfo"
-import Template_Page from "../../_Templates/Page"
+import Template_Page from "../../_Templates/Template_Page"
 
 const Channel_Activity: Template_Page = {
   info: {

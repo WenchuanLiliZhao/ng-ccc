@@ -4,7 +4,7 @@ import Section_NewsClipping from "../../../Components/Sections/NewsClipping";
 import Section_SlidingCards from "../../../Components/Sections/SlidingCards";
 import PageSection from "../../../Components/Sections/PageSection";
 import SiteInfo from "../../../SiteInfo";
-import Template_Page from "../../_Templates/Page";
+import Template_Page from "../../_Templates/Template_Page";
 import Posts from "../../Posts/_Posts";
 import Gallery_Quotes from "../../../Components/Sections/Galleries/Quotes";
 

@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Channels from "./Pages/Channels/_Channels";
 import ChannelLayout from "./Pages/_Templates/Layouts/ChannelLayout";
-import Template_Page from "./Pages/_Templates/Page";
+import Template_Page from "./Pages/_Templates/Template_Page";
 import Posts from "./Pages/Posts/_Posts";
 import PostLayout from "./Pages/_Templates/Layouts/PostLayout";
 

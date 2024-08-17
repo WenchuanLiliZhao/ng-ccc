@@ -1,8 +1,9 @@
+import "./_Template_PageBody.scss"
+
 import Divider_LatestUpdate from "../../Components/Divider/LatestUpdate";
 import Footer from "../../Components/Navigation/Footer";
 import TopNav from "../../Components/Navigation/TopNav";
 import SiteInfo from "../../SiteInfo";
-import "./_PageBody.scss";
 import React from "react";
 
 interface Props {
@@ -20,7 +21,6 @@ const PageBody: React.FC<Props> = ({ children }) => {
         </main>
         <Footer />
       </div>
-      
     </div>
   </>)
 }

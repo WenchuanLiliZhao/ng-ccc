@@ -1,4 +1,4 @@
-import Template_Page from "./Page";
+import Template_Page from "./Template_Page";
 
 interface Template_AuthorsInPost {
   data: Template_Page,

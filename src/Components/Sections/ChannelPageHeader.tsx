@@ -1,4 +1,4 @@
-import Template_Page from "../../Pages/_Templates/Page";
+import Template_Page from "../../Pages/_Templates/Template_Page";
 import "./ChannelPageHeader.scss";
 
 interface Props {

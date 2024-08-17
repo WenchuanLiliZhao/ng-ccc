@@ -1,4 +1,4 @@
-import Template_AuthorsInPost from "./AuthorsInPost"
+import Template_AuthorsInPost from "./Template_AuthorsInPost"
 
 interface Template_Page {
   info: {

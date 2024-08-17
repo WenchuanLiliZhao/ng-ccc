@@ -1,6 +1,6 @@
-import Template_Page from "../_Templates/Page"
+import Template_Page from "../_Templates/Template_Page"
 
-const Suep: Template_Page = {
+const Author_Suep: Template_Page = {
   info: {
     title: "聯合電子出版",
     key: "suep",
@@ -10,4 +10,4 @@ const Suep: Template_Page = {
   content: (<></>)
 }
 
-export default Suep
+export default Author_Suep

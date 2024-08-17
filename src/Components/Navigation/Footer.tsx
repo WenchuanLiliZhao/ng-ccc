@@ -1,5 +1,5 @@
 import SocialMedia from "../../InfoTemplates/SocialMedia";
-import Template_Page from "../../Pages/_Templates/Page";
+import Template_Page from "../../Pages/_Templates/Template_Page";
 import Channels from "../../Pages/Channels/_Channels";
 import Posts from "../../Pages/Posts/_Posts";
 import SiteInfo from "../../SiteInfo";
@@ -17,8 +17,8 @@ const footerSocialMedia = Object.values(SiteInfo.social_medias);
 
 const footerOthers = [
   Channels.Channel_Contact,
-  Posts.Channel_Privacy,
-  Posts.Channel_TermsOfUse,
+  Posts.Post_Privacy,
+  Posts.Post_TermsOfUse,
 ];
 
 export default function Footer() {

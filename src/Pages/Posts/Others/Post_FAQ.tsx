@@ -1,7 +1,7 @@
 
-import Template_Page from "../../_Templates/Page";
+import Template_Page from "../../_Templates/Template_Page";
 
-const Channel_FAQ: Template_Page = {
+const Post_FAQ: Template_Page = {
   info: {
     title: "幫助 & FAQ",
     key: "faq",
@@ -12,4 +12,4 @@ const Channel_FAQ: Template_Page = {
   content: (<></>)
 }
 
-export default Channel_FAQ
+export default Post_FAQ

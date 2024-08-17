@@ -1,4 +1,4 @@
-import Template_News from "../_Templates/News";
+import Template_News from "../_Templates/Template_News";
 
 const AllNews: { [key: string]: Template_News } = {
   news7: {

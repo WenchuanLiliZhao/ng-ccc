@@ -1,6 +1,6 @@
 import React from "react";
-import Template_Page from "../Page";
-import PageBody from "../_PageBody";
+import Template_Page from "../Template_Page";
+import PageBody from "../_Template_PageBody";
 import ChannelPageHeader from "../../../Components/Sections/ChannelPageHeader";
 
 interface Props {

@@ -1,6 +1,6 @@
 import "./NewsClip.scss"
 
-import Template_News from "../../Pages/_Templates/News"
+import Template_News from "../../Pages/_Templates/Template_News"
 import DateFormatter from "../Functions/DateFormatter"
 
 interface Props {

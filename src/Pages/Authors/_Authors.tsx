@@ -1,7 +1,7 @@
-import Suep from "./Suep";
+import Author_Suep from "./Author_Suep";
 
 const Authors = {
-  Suep
+  Author_Suep
 }
 
 export default Authors

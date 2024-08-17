@@ -1,8 +1,8 @@
 import Sec from "../../_Templates/Layouts/InArticle/_ArticleSection";
 import Fig from "../../_Templates/Layouts/InArticle/Fig";
 import YouTubeVideo from "../../_Templates/Layouts/InArticle/YouTubeVideo";
-import Template_Page from "../../_Templates/Page";
-import Suep from "../../Authors/Suep";
+import Template_Page from "../../_Templates/Template_Page";
+import Author_Suep from "../../Authors/Author_Suep";
 import Tags from "../../Tags/_Tags";
 
 const Post_WhereDidItComeFrom: Template_Page = {
@@ -17,7 +17,7 @@ const Post_WhereDidItComeFrom: Template_Page = {
     tags: [Tags.Tag_Panda],
     authors: [
       {
-        data: Suep,
+        data: Author_Suep,
       },
     ],
   },

@@ -1,6 +1,6 @@
-import Template_Page from "../../_Templates/Page";
+import Template_Page from "../../_Templates/Template_Page";
 
-const Channel_Privacy: Template_Page = {
+const Post_Privacy: Template_Page = {
   info: {
     title: "Privacy",
     key: "privacy",
@@ -11,4 +11,4 @@ const Channel_Privacy: Template_Page = {
   content: (<></>)
 }
 
-export default Channel_Privacy
+export default Post_Privacy
