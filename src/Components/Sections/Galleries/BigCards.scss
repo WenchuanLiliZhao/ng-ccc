@@ -1,7 +1,14 @@
 .gallery-big-cards {
   padding-top: 24px;
+
   > .container {
     > .card {
+
+      &:hover {
+        .title {
+          text-decoration: underline;
+        }
+      }
       
       @media only screen and (min-width: 1101px) {
         display: flex;
