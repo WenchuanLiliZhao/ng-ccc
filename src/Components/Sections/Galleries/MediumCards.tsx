@@ -30,7 +30,7 @@ const Gallery_MediumCards: React.FC<Props> = ({ columnCount, posts }) => {
                 <div className="caption">
                   {item.info.authors != undefined ? (
                     <span className="author-0">
-                      {item.info.authors[0].data.info.title}
+                      {item.info.authors[0].data.info.title}{` · `}
                     </span>
                   ) : (
                     ""
