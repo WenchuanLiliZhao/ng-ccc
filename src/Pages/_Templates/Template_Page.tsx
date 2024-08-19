@@ -16,7 +16,7 @@ interface Template_Page {
     title_display?: JSX.Element,
     authors?: Template_AuthorsInPost[],
     
-    tags?: Template_Page[]
+    tags?: Template_Page[],
   },
 
   content: JSX.Element,

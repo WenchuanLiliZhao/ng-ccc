@@ -2,7 +2,7 @@ import "./_ArticleSection.scss"
 
 interface Sec_Props {
   children: JSX.Element[]| JSX.Element;
-  size?: "large" | "fill";
+  size?: "large" | "full";
 }
 
 const Sec: React.FC<Sec_Props> = ({ children, size }) => {

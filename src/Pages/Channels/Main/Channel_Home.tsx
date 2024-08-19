@@ -24,12 +24,7 @@ const Channel_Home: Template_Page = {
   content: (
     <>
       <Section_SlidingCards
-        cards={[
-          Posts.Post_WhereDidItComeFrom,
-          Posts.Post_MoonFestival,
-          Posts.Post_WhereDidItComeFrom,
-          Posts.Post_WhereDidItComeFrom,
-        ]}
+        cards={[Posts.Post_8, Posts.Post_3, Posts.Post_29, Posts.Post_41]}
       />
 
       <PageSection
@@ -39,66 +34,76 @@ const Channel_Home: Template_Page = {
         <Gallery_MediumCards
           columnCount={3}
           posts={[
-            Posts.Post_WhereDidItComeFrom,
-            Posts.Post_MoonFestival,
-            Posts.Post_WhereDidItComeFrom,
+            Posts.Post_5,
+            Posts.Post_6,
+            Posts.Post_7,
             // Posts.Post_WhereDidItComeFrom,
           ]}
         />
       </PageSection>
 
-      <PageSection title={""} brief={""}>
+      <PageSection
+        title={"活動預告"}
+        brief={"Lorem ipsum dolor sit amet, consectetur adipiscing elit"}>
         <Gallery_BigCards
           posts={[
-            Posts.Post_WhereDidItComeFrom,
-            Posts.Post_MoonFestival,
-            Posts.Post_WhereDidItComeFrom,
+            Posts.Post_14,
+            Posts.Post_15,
+            Posts.Post_16,
           ]}
         />
       </PageSection>
 
       <PageSection
-        title={""}
-        brief={""}
-        children={
-          <Gallery_Quotes quotes={[
-            {
-              sentence: "學校應運用好豐富的教育資源，開展多樣化的活動，讓學生認識、體驗和傳承中華文化，這是學校教育的重要一環。「中華文化有意思」用科技手段推廣中華文化，方法適時而多樣。",
-              from: "香港教育局中小學中國語文課程專責委員會主席 招祥麒博士"
-            },
-
-            {
-              sentence: "學校要善用科技發展成果，鼓勵學生在跨學科協作的情境下循序漸進地獲得中華文化的浸潤。",
-              from: "香港學校圖書館主任協會會長 黃毅娟女士"
-            },
-
-            {
-              sentence: "「中華文化有意思」為可銘學校策劃的「雲遊長城——元宇宙體驗展」閱讀周活動效果很好，是一次科技與傳統文化深度融合的有效嘗試。",
-              from: "香港創意閱讀教育協會會長 董雅詩女士"
-            },
-          ]} />
-        }
+        title={"精華案例"}
+        brief={"Lorem ipsum dolor sit amet, consectetur adipiscing elit"}
+      >
+        <Gallery_MediumCards
+          columnCount={4}
+          posts={[Posts.Post_10, Posts.Post_11, Posts.Post_12, Posts.Post_13]}
         />
+      </PageSection>
 
       <PageSection
-        title={"最新動態"}
+        title={"精選評論"}
+        brief={"Lorem ipsum dolor sit amet consectetur adipisicing elit"}
+        children={
+          <Gallery_Quotes
+            quotes={[
+              {
+                sentence:
+                  "學校應運用好豐富的教育資源，開展多樣化的活動，讓學生認識、體驗和傳承中華文化，這是學校教育的重要一環。「中華文化有意思」用科技手段推廣中華文化，方法適時而多樣。",
+                from: "香港教育局中小學中國語文課程專責委員會主席 招祥麒博士",
+              },
+
+              {
+                sentence:
+                  "學校要善用科技發展成果，鼓勵學生在跨學科協作的情境下循序漸進地獲得中華文化的浸潤。",
+                from: "香港學校圖書館主任協會會長 黃毅娟女士",
+              },
+
+              {
+                sentence:
+                  "「中華文化有意思」為可銘學校策劃的「雲遊長城——元宇宙體驗展」閱讀周活動效果很好，是一次科技與傳統文化深度融合的有效嘗試。",
+                from: "香港創意閱讀教育協會會長 董雅詩女士",
+              },
+            ]}
+          />
+        }
+      />
+
+      <PageSection
+        title={"政策津貼"}
         brief={"Lorem ipsum dolor sit amet, consectetur adipiscing elit"}
         children={
           <>
             <Gallery_MediumCards
-              columnCount={4}
-              posts={[
-                Posts.Post_WhereDidItComeFrom,
-                Posts.Post_MoonFestival,
-                Posts.Post_WhereDidItComeFrom,
-                Posts.Post_WhereDidItComeFrom,
-              ]}
+              columnCount={3}
+              posts={[Posts.Post_49, Posts.Post_50, Posts.Post_51]}
             />
           </>
         }
       />
-
-      
 
       <Section_NewsClipping className="only-show-below-screen-size-1000" />
     </>

@@ -26,10 +26,8 @@ const Gallery_BigCards: React.FC<Props> = ({ posts }) => {
             <div className="info">
               <div className="container">
                 <div className="label">
-                  {item.info.authors != undefined ? (
-                    <span className="author-0">
-                      {item.info.authors[0].data.info.title}
-                    </span>
+                  {item.info.label != undefined ? (
+                    <>{item.info.label}</>
                   ) : (
                     ""
                   )}
@@ -37,6 +35,14 @@ const Gallery_BigCards: React.FC<Props> = ({ posts }) => {
                 <div className="title">{item.info.title}</div>
                 <div className="brief">{item.info.brief}</div>
                 <div className="caption">
+                  {item.info.authors != undefined ? (
+                    <>
+                      <span className="author-0">
+                        {item.info.authors[0].data.info.title}{` · `}
+                      </span>
+                    </>
+                  ) : ""}
+
                   <span>
                     <DateFormatter
                       date={item.info.latest_update}
