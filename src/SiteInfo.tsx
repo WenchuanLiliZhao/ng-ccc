@@ -5,15 +5,15 @@ import SocialMedia from "./InfoTemplates/SocialMedia"
 const social_medias: { [key: string]: SocialMedia } = {
   facebook: {
     title: "Facebook",
-    link: "https://www.youtube.com/"
+    link: "https://www.facebook.com/profile.php?id=61559566926404"
   },
   youtube: {
     title: "YouTube",
-    link: "https://www.youtube.com/"
+    link: "https://www.youtube.com/@CharmingChineseCulture"
   },
   instagramm: {
     title: "Instagramm",
-    link: "https://www.youtube.com/"
+    link: "https://www.instagram.com/nowbook_hk/"
   }
 };
 
