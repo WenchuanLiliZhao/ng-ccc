@@ -13,7 +13,8 @@ const channels = [
   Channels.Channel_Readings,
   Channels.Channel_Hardware,
   Channels.Channel_Resource,
-  Channels.Channel_Contact,
+  Channels.Channel_Metaverse,
+  Channels.Channel_About,
 ];
 
 const socialMedia = Object.values(SiteInfo.social_medias);

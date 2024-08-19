@@ -9,14 +9,13 @@ import "./Footer.scss";
 const footerChannels = [
   Channels.Channel_Activity,
   Channels.Channel_Readings,
-  Channels.Channel_Hardware,
   Channels.Channel_Resource,
 ];
 
 const footerSocialMedia = Object.values(SiteInfo.social_medias);
 
 const footerOthers = [
-  Channels.Channel_Contact,
+  Channels.Channel_About,
   Posts.Post_Privacy,
   Posts.Post_TermsOfUse,
 ];
@@ -40,7 +39,7 @@ export default function Footer() {
 
           <div className="links">
             <div className="group">
-              <div className="title">網站頻道</div>
+              <div className="title">推薦頻道</div>
               {footerChannels.map((item: Template_Page, i: number) => (
                 <a
                   key={`${item}${i}`}

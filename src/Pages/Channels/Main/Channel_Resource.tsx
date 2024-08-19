@@ -6,7 +6,7 @@ const Channel_Resource: Template_Page = {
     title: "學科資源",
     key: "resource",
     brief: "",
-    label: undefined,
+    label: SiteInfo.title,
     front: undefined,
     showHeader: undefined,
     latest_update: SiteInfo.latest_update,
