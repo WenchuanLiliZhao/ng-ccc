@@ -28,8 +28,12 @@
     }
 
     & > .row {
-      display: grid;
-      gap: 16px;
+      // display: grid;
+      // gap: 16px;
+
+      a:not(:first-of-type) {
+        margin-top: 16px;
+      }
 
       &:not(:first-of-type) {
         @media only screen and (min-width: 1001px) {
