@@ -1,5 +1,7 @@
+import PageList from "../../../Components/Search/PageList";
 import SiteInfo from "../../../SiteInfo";
 import Template_Page from "../../_Templates/Template_Page";
+import Posts from "../../Posts/_Posts";
 
 const Channel_Search: Template_Page = {
   info: {
@@ -10,7 +12,9 @@ const Channel_Search: Template_Page = {
     label: `${SiteInfo.title}`,
     latest_update: SiteInfo.latest_update,
   },
-  content: (<></>)
+  content: (<>
+    <PageList pages={Posts} />
+  </>)
 }
 
 export default Channel_Search
