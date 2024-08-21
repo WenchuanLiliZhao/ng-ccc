@@ -1,4 +1,7 @@
+
+import MD from "../../../Components/Markdown/MD"
 import SiteInfo from "../../../SiteInfo"
+import Sec from "../../_Templates/Layouts/InArticle/_ArticleSection"
 import Template_Page from "../../_Templates/Template_Page"
 
 const Channel_About: Template_Page = {
@@ -11,7 +14,12 @@ const Channel_About: Template_Page = {
     latest_update: SiteInfo.latest_update,
   },
   content: (<>
-    
+    <Sec>
+
+    <MD>
+      所以，当我们设 $x \in \mathscr U$，$A$ A
+    </MD>
+    </Sec>
   </>)
 }
 
