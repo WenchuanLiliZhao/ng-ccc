@@ -16,8 +16,8 @@ const Channel_About: Template_Page = {
   content: (<>
     <Sec>
 
-    <MD>
-      所以，当我们设 $x \in \mathscr U$，$A$ A
+    <MD align="center">
+      sss $x$ A $A$
     </MD>
     </Sec>
   </>)
