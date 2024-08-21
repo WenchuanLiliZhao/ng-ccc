@@ -23,7 +23,14 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          {/* <Route path="*" element={<NotFound />}/> */}
+          {/* <Route
+            key="*"
+            element={
+              <>
+                <ChannelLayout data={Channels.NotFound} />
+              </>
+            }
+          /> */}
 
           <Route
             index

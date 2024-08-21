@@ -1,7 +1,7 @@
 // 這個 component 目前只在 page template 中使用了一次，因此可以放心修改
 
 
-import "./FixedBtnsOnPage.scss"
+import "./FixedBubbleOnPage.scss"
 import { toggleClass } from "../../Functions/ToggleClassName"
 
 
@@ -22,5 +22,6 @@ function FixBtnsOnPage() {
     </div>
   </>)
 }
+
 
 export default FixBtnsOnPage

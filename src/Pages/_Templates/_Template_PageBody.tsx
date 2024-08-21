@@ -5,7 +5,7 @@ import Footer from "../../Components/Navigation/Footer";
 import TopNav from "../../Components/Navigation/TopNav";
 import SiteInfo from "../../SiteInfo";
 import React from "react";
-import FixBtnsOnPage from "../../Components/BtnsAndBtnGroups/Group/FixedBtnsOnPage";
+import FixBtnsOnPage from "../../Components/BtnsAndBtnGroups/Group/FixedBubbleOnPage";
 
 interface Props {
   children: JSX.Element,
