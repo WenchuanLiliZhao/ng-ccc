@@ -15,7 +15,7 @@ const MD: React.FC<Props> = ({ children, align }) => {
     <ReactMarkdown
       remarkPlugins={[remarkMath]}
       rehypePlugins={[rehypeKatex]}
-      className={align}
+      className={`${align}`}
     >
       {children}
     </ReactMarkdown>
