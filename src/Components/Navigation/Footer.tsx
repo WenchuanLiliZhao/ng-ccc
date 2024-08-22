@@ -9,7 +9,7 @@ import "./Footer.scss";
 const footerChannels = [
   Channels.Channel_Activity,
   Channels.Channel_Readings,
-  Channels.Channel_Resource,
+  Posts.Post_8,
 ];
 
 const footerSocialMedia = Object.values(SiteInfo.social_medias);

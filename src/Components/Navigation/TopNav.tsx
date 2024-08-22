@@ -46,12 +46,12 @@ export default function TopNav() {
             </NavLink2Top>
           ))}
 
-          <NavLink2Top
+          {/* <NavLink2Top
             className="top-nav-item icon-item"
             to={`/${Channels.Channel_Search.info.key}`}
           >
             <div className="material-symbols-outlined icon search">search</div>
-          </NavLink2Top>
+          </NavLink2Top> */}
 
           <div
             className="top-nav-item icon-item menu"
