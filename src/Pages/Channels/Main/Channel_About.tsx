@@ -1,5 +1,5 @@
 
-import MD from "../../../Components/Markdown/MD"
+import Markdown from "../../../Components/Markdown/MD"
 import SiteInfo from "../../../SiteInfo"
 import Sec from "../../_Templates/Layouts/InArticle/_ArticleSection"
 import Template_Page from "../../_Templates/Template_Page"
@@ -16,9 +16,9 @@ const Channel_About: Template_Page = {
   content: (<>
     <Sec>
 
-    <MD align="center">
+    <Markdown align="center">
       sss $x$ A $A$
-    </MD>
+    </Markdown>
     </Sec>
   </>)
 }

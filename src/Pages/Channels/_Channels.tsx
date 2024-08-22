@@ -7,7 +7,6 @@ import Channel_Readings from "./Main/Channel_Readings";
 import Channel_Activity from "./Main/Channel_Activity";
 import Channel_Search from "./Main/Channel_Search";
 import Channel_Resource from "./Main/Channel_Resource";
-import Channel_Metaverse from "./Main/Channel_Metaverse";
 import Channel_News from "./Main/Channel_News";
 
 
@@ -21,7 +20,6 @@ const Channels = {
   Channel_Hardware,
   Channel_About,
   Channel_Resource,
-  Channel_Metaverse,
   Channel_News,
 
   Channel_Search,
