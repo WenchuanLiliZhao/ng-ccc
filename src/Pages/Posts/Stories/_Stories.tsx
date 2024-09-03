@@ -1,4 +1,4 @@
-import Template_Page from "../../_Templates/Template_Page";
+// import Template_Page from "../../_Templates/Template_Page";
 import Post_10 from "./Post_10";
 import Post_11 from "./Post_11";
 import Post_12 from "./Post_12";
@@ -35,7 +35,7 @@ import Post_7 from "./Post_7";
 import Post_70 from "./Post_70";
 import Post_8 from "./Post_8";
 
-const Stories: { [key: string]: Template_Page } = {
+const Stories = {
   Post_3,
   Post_5,
   Post_6,

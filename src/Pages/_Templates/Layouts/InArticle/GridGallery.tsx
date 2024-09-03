@@ -7,7 +7,7 @@ interface Art {
 }
 
 interface Arts {
-  columns: 3 | 4;
+  columns: 2 | 3 | 4;
   ratio: [number, number];
   arts: Art[];
 }

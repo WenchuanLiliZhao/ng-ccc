@@ -1,3 +1,4 @@
+import ContactCallout from "../../../Components/Callouts/ContactCallout";
 import InArticleCard from "../../../Components/Cards/InArticleCard";
 import Sec from "../../_Templates/Layouts/InArticle/_ArticleSection";
 import Fig from "../../_Templates/Layouts/InArticle/Fig";
@@ -23,7 +24,7 @@ const Post_3: Template_Page = {
   },
   content: (
     <>
-      <Sec size="full">
+      <Sec size="large">
         <Fig
           art={
             <img
@@ -259,6 +260,8 @@ const Post_3: Template_Page = {
 
         <InArticleCard data={Post_17} />
       </Sec>
+
+      <ContactCallout />
     </>
   ),
 };

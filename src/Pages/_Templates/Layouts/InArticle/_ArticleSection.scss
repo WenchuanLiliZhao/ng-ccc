@@ -28,7 +28,16 @@
     font-size: 32px;
     font-weight: bold;
     font-family: var(--ff-serif);
-    margin: 24px 0;
+    margin-top: 1.25em;
+    margin-bottom: 0.5em;
+  }
+
+  h3 {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: var(--ff-serif);
+    margin-top: 1em;
+    margin-bottom: 0.5em;
   }
 
   h1, h2, h3 {
@@ -43,5 +52,11 @@
 
   p a, figcaption a {
     text-decoration: underline;
+  }
+    
+  blockquote {
+    margin: 24px 0;
+    border-left: 2px solid var(--text-color--main);
+    padding-left: 1em;
   }
 }

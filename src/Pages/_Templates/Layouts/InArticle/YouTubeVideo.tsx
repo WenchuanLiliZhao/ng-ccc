@@ -13,7 +13,7 @@ const YouTubeVideo: React.FC<Props> = ({ v, ratio }) => {
 
   return (
     <>
-      <div className="youtube-video"
+      <figure className="youtube-video"
         style={{
           paddingTop: ratioPersantage
         }}
@@ -26,7 +26,7 @@ const YouTubeVideo: React.FC<Props> = ({ v, ratio }) => {
           title="MR互動體驗·趣學廿四節氣之夏至"
           // allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         ></iframe>
-      </div>
+      </figure>
     </>
   );
 };
