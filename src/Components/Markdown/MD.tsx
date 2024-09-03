@@ -9,7 +9,7 @@ interface Props {
   align?: "center"
 }
 
-const Markdown: React.FC<Props> = ({ children, align }) => {
+const Para: React.FC<Props> = ({ children, align }) => {
 
   return (
     <ReactMarkdown
@@ -22,4 +22,4 @@ const Markdown: React.FC<Props> = ({ children, align }) => {
   );
 };
 
-export default Markdown
+export default Para

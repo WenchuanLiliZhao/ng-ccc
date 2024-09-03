@@ -1,9 +1,11 @@
 figure.fig {
-  // > .art {
+  > .art {
+    img {
+      width: 100%;
+    }
+  }
 
-  // }
-
-  > figcaption {
+  > figcaption, > figcaption p {
     max-width: 800px;
     margin: 0 auto;
     margin-top: 8px;
@@ -11,6 +13,6 @@ figure.fig {
 
     font-size: 14px;
     line-height: 175%;
-    opacity: 0.48;
+    color: rgba(black, 0.48);
   }
 }

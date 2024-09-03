@@ -1,7 +1,22 @@
-import Markdown from "../../../Components/Markdown/MD";
+import Para from "../../../Components/Markdown/MD";
 import SiteInfo from "../../../SiteInfo";
 import Sec from "../../_Templates/Layouts/InArticle/_ArticleSection";
 import Template_Page from "../../_Templates/Template_Page";
+
+
+const content = `
+1. $u$ sss
+
+$$
+\\displaystyle
+\\begin{aligned}
+s &= s \\\\
+&= s \\\\
+x \\in A
+\\end{aligned}
+$$
+`
+
 
 const Channel_About: Template_Page = {
   info: {
@@ -16,10 +31,13 @@ const Channel_About: Template_Page = {
   content: (
     <>
       <Sec>
-        <Markdown align="center">
-          {/* sss $x$ A $A$ */}
-          {``}
-        </Markdown>
+        <Para align="center">
+          sss $x^2$ *A* $A$ **A**
+        </Para>
+
+        <Para>
+          {content}
+        </Para>
       </Sec>
     </>
   ),

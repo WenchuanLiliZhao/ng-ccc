@@ -38,5 +38,10 @@
   p {
     font-size: 18px;
     line-height: 175%;
+    margin: 8px 0;
+  }
+
+  p a, figcaption a {
+    text-decoration: underline;
   }
 }
