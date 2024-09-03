@@ -19,7 +19,7 @@ interface Template_Page {
     tags?: Template_Page[],
   },
 
-  content: JSX.Element,
+  content: JSX.Element | JSX.Element[],
 }
 
 export default Template_Page

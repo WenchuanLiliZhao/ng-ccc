@@ -29,13 +29,13 @@ const Channel_Home: Template_Page = {
 
       <PageSection
         title="最新動態"
-        brief="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        brief="探索中華文化的奇趣魅力，開啟一段全新旅程"
       >
         <Gallery_MediumCards
           columnCount={3}
           posts={[
             Posts.Post_5,
-            Posts.Post_6,
+            Posts.Post_71,
             Posts.Post_7,
             // Posts.Post_WhereDidItComeFrom,
           ]}
@@ -44,19 +44,19 @@ const Channel_Home: Template_Page = {
 
       <PageSection
         title={"活動預告"}
-        brief={"Lorem ipsum dolor sit amet, consectetur adipiscing elit"}>
+        brief={"即將舉行的精彩活動，帶你體驗不一樣的文化魅力"}>
         <Gallery_BigCards
           posts={[
-            Posts.Post_14,
-            Posts.Post_15,
-            Posts.Post_16,
+            // Posts.Post_14,
+            // Posts.Post_15,
+            Posts.Post_6,
           ]}
         />
       </PageSection>
 
       <PageSection
         title={"精華案例"}
-        brief={"Lorem ipsum dolor sit amet, consectetur adipiscing elit"}
+        brief={"帶你深入了解中華文化的經典故事"}
       >
         <Gallery_MediumCards
           columnCount={4}
@@ -66,7 +66,7 @@ const Channel_Home: Template_Page = {
 
       <PageSection
         title={"精選評論"}
-        brief={"Lorem ipsum dolor sit amet consectetur adipisicing elit"}
+        brief={"洞悉大家對「中華文化有意思」的獨特見解"}
         children={
           <Gallery_Quotes
             quotes={[
@@ -92,7 +92,7 @@ const Channel_Home: Template_Page = {
         }
       />
 
-      <PageSection
+      {/* <PageSection
         title={"政策津貼"}
         brief={"Lorem ipsum dolor sit amet, consectetur adipiscing elit"}
         children={
@@ -103,7 +103,9 @@ const Channel_Home: Template_Page = {
             />
           </>
         }
-      />
+      /> */}
+
+      
 
       <Section_NewsClipping className="only-show-below-screen-size-1000" />
     </>

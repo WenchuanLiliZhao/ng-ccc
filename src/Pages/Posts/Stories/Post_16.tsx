@@ -3,7 +3,7 @@ import Authors from "../../Authors/_Authors";
 
 const Post_16: Template_Page = {
   info: {
-    title: "「中華文化有意思」活動體驗日",
+    title: "「中華文化有意思」品牌發佈會",
     key: "post_16",
     brief: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet sodales massa, non lobortis quam. Vivamus commodo lectus ac porttitor faucibus. Ut at fringilla sapien, et fermentum purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     latest_update: [2024,8,20],

@@ -5,7 +5,7 @@ import SiteInfo from "../../SiteInfo";
 interface Props {
   icon?: string;
   title?: string;
-  caption?: string;
+  caption?: string | JSX.Element;
 }
 
 const ContactCallout: React.FC<Props> = ({ icon, title, caption }) => {
