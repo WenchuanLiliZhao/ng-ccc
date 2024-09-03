@@ -1,3 +1,4 @@
+import ContactCallout from "../../../Components/Callouts/ContactCallout";
 import Sec from "../../_Templates/Layouts/InArticle/_ArticleSection";
 import Fig from "../../_Templates/Layouts/InArticle/Fig";
 import GridGallery from "../../_Templates/Layouts/InArticle/GridGallery";
@@ -223,23 +224,57 @@ const Post_29: Template_Page = {
         </p>
       </Sec>
 
-      <Sec size="large">
-        <GridGallery arts={[
-          {
-            src: "https://i.pinimg.com/1200x/37/f8/5f/37f85f44bd9dd78df17d69e280274101.jpg",
-            caption: "sss"
-          },
+      <Sec size="full">
+        <GridGallery
+          ratio={[3216,4872]}
+          columns={3}
+          arts={[
+            {
+              src: "https://i.pinimg.com/1200x/e5/c6/f1/e5c6f16aec97f1e04504b8992263089f.jpg",
+              caption: "《中國紋樣》插圖 XLI",
+            },
 
-          {
-            src: "https://i.pinimg.com/1200x/37/f8/5f/37f85f44bd9dd78df17d69e280274101.jpg",
-            caption: "sss"
-          },
+            {
+              src: "https://i.pinimg.com/1200x/9d/28/65/9d28651b918129a61051fba876b75a04.jpg",
+              caption: "《中國紋樣》插圖 V",
+            },
 
-          {
-            src: "https://i.pinimg.com/1200x/37/f8/5f/37f85f44bd9dd78df17d69e280274101.jpg",
-            caption: "sss"
-          },
-        ]} />
+            {
+              src: "https://i.pinimg.com/1200x/30/37/56/3037567e0c0f29deee6b36d07e00bc5e.jpg",
+              caption: "《中國紋樣》插圖 LXVIII",
+            },
+
+            {
+              src: "https://i.pinimg.com/1200x/2e/ed/c7/2eedc790ccc2cb90b951dcca7c8156f7.jpg",
+              caption: "《中國紋樣》插圖 XXXIII",
+            },
+
+            {
+              src: "https://i.pinimg.com/1200x/9b/d6/cb/9bd6cb37ac2fe2345f9581fa7a33e775.jpg",
+              caption: "《中國紋樣》插圖 VIII",
+            },
+
+            {
+              src: "https://i.pinimg.com/1200x/34/c9/ee/34c9eef522b27b4d86a9bc03bd22de96.jpg",
+              caption: "《中國紋樣》插圖 XCV",
+            },
+
+            {
+              src: "https://i.pinimg.com/1200x/5c/b8/f8/5cb8f8c2ef1a1fd5364812541e51751c.jpg",
+              caption: "《中國紋樣》插圖 VI",
+            },
+
+            {
+              src: "https://i.pinimg.com/1200x/c1/1e/55/c11e557b46392d9ca524acd541dbf4c7.jpg",
+              caption: "《中國紋樣》插圖 XLIII",
+            },
+
+            {
+              src: "https://i.pinimg.com/1200x/25/d0/7e/25d07e41b4baa4542c0146c43bbda496.jpg",
+              caption: "《中國紋樣》插圖 XXXIV",
+            },            
+          ]}
+        />
       </Sec>
 
       <Sec>
@@ -265,6 +300,8 @@ const Post_29: Template_Page = {
       <Sec>
         <p>如果您對此感興趣，可以通過以下方式聯繫我們。</p>
       </Sec>
+
+      <ContactCallout />
     </>
   ),
 };

@@ -19,6 +19,11 @@ interface Site {
   social_medias: SocialMedias,
 
   copyright: string,
+
+  contact: { [key: string]: { 
+    title: string,
+    info: string,
+   } },
 }
 
 export default Site

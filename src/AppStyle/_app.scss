@@ -6,3 +6,7 @@
 @import "./hide&show.scss";
 
 @import "./font.scss";
+
+html {
+  scroll-behavior: smooth;
+}

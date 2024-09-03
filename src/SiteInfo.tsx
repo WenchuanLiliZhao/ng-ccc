@@ -31,7 +31,29 @@ const SiteInfo: Site = {
 
   social_medias: social_medias,
 
-  copyright: `©SINO UNITED ELECTRONIC PUBLISHING LTD ${String(Today[0])}`
+  copyright: `©SINO UNITED ELECTRONIC PUBLISHING LTD ${String(Today[0])}`,
+
+  contact: {
+    address: {
+      title: "公司地址",
+      info: "香港九龍長沙灣永康街77號環薈中心1011室"
+    },
+
+    phone: {
+      title: "業務拓展部",
+      info: "（852）9824 9587",
+    },
+
+    mail: {
+      title: "電郵",
+      info: "marketing@suep.com",
+    },
+
+    whatsApp: {
+      title: "中華文化研習社WhatsApp群組",
+      info: "https://chat.whatsapp.com/BNS5UfWFlak7z2v22Lh3Zn",
+    }
+  }
 }
 
 export default SiteInfo
