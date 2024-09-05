@@ -1,10 +1,7 @@
-import Gallery_BigCards from "../../../Components/Sections/Galleries/BigCards";
-import Gallery_MediumCards from "../../../Components/Sections/Galleries/MediumCards";
-import PageSection from "../../../Components/Sections/PageSection";
-import Section_SlidingCards from "../../../Components/Sections/SlidingCards";
 import SiteInfo from "../../../SiteInfo";
+import Sec from "../../_Templates/Layouts/InArticle/_ArticleSection";
+import Fig from "../../_Templates/Layouts/InArticle/Fig";
 import Template_Page from "../../_Templates/Template_Page";
-import Posts from "../../Posts/_Posts";
 
 const Channel_Activity: Template_Page = {
   info: {
@@ -12,33 +9,36 @@ const Channel_Activity: Template_Page = {
     key: "service",
     title_display: <>活動</>,
     brief:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent augue metus, volutpat sed interdum quis, rutrum vel odio. Cras velit nisl, facilisis condimentum velit at, laoreet porttitor turpis. Integer luctus consequat sem vitae imperdiet.",
-    label: `${SiteInfo.title}`,
+      "我們即將推出一個全新的精彩頻道，為您帶來更多豐富有趣的內容。敬請期待更多的驚喜！我們正在為您精心準備，確保每一個細節都完美無瑕。請隨時關注我們的最新消息，並不要忘記訂閱我們的通知，第一時間了解頻道的上線信息。謝謝您的耐心等待！",
+    // label: `${SiteInfo.title}`,
+    label: "Coming Soon",
     latest_update: SiteInfo.latest_update,
   },
 
   content: (
     <>
-      <Section_SlidingCards
-        cards={[Posts.Post_17, Posts.Post_25, Posts.Post_24, Posts.Post_6]}
-      />
-
-      <PageSection
-        title={"元宇宙"}
-        brief={"Lorem ipsum dolor sit amet, consectetur adipiscing elit"}
-      >
-        <Gallery_MediumCards
-          columnCount={4}
-          posts={[Posts.Post_11, Posts.Post_34, Posts.Post_35, Posts.Post_41]}
+      <Sec>
+        <Fig
+          art={
+            <img
+              src="https://i.pinimg.com/1200x/be/a1/47/bea1476269545bbab92b09a6c07ea68f.jpg"
+              alt=""
+            />
+          }
+          caption={
+            <>
+              Photo by{" "}
+              <a href="https://unsplash.com/@happysurd?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
+                Prakash
+              </a>{" "}
+              on{" "}
+              <a href="https://unsplash.com/photos/a-bunch-of-colorful-lights-hanging-from-a-ceiling-roprh_TepuM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
+                Unsplash
+              </a>
+            </>
+          }
         />
-      </PageSection>
-
-      <PageSection
-        title={"中華非遺手功課"}
-        brief={"Lorem ipsum dolor sit amet, consectetur adipiscing elit"}
-      >
-        <Gallery_BigCards posts={[Posts.Post_60, Posts.Post_61]} />
-      </PageSection>
+      </Sec>
     </>
   ),
 };
