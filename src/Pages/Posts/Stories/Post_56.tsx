@@ -13,7 +13,7 @@ const Post_56: Template_Page = {
     key: "post_56",
     brief:
       "出於種種原因的考量，三星堆成為了「中華文化有意思」的一個重要的項目分支。該分支中包含書展、VR、AR 以及名家講座。我們希望，通過關於這種重要的話題的種種活動，可以讓學生們認識到一個更為複雜而鮮活的、關於起源時期的中華文化的認識，而不再停留在固有的刻板印象中。",
-    latest_update: [2024, 8, 22],
+    latest_update: [2024, 9, 9],
     cover:
       "https://i.pinimg.com/originals/91/5c/25/915c250dcf0600323f5b7aa145b72c80.jpg",
     label: "全年接受預訂",
