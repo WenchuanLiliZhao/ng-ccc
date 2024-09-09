@@ -4,11 +4,12 @@ import "./Fig.scss"
 interface Props {
   art: JSX.Element
   caption?: JSX.Element | string
+  size?: "small"
 }
 
-const Fig: React.FC<Props> = ({ art, caption }) => {
+const Fig: React.FC<Props> = ({ art, caption, size }) => {
   return (
-    <figure className="fig">
+    <figure className={`fig ${size}`}>
       <div className="art">
         {art}
       </div>
