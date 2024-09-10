@@ -114,19 +114,19 @@ const Post_56: Template_Page = {
       <Sec>
         <Fig
           art={
-            <img src="https://i.pinimg.com/originals/00/e5/ca/00e5ca00a8ce4c966d2745bd51b7f0fa.jpg" />
+            <img src="https://lh3.google.com/u/0/d/1Dk2vyIlpr2B8JGyGMU6jZu4kbhLf9UVv=w3600-h2008-iv1" />
           }
           caption={
             <p>
               「中華文化有意思」之《古蜀文化之源：三星堆文化》活動海報
             </p>
           }
-
-          size="small"
         />
       </Sec>
 
-      <ContactCallout />
+      <ContactCallout
+        title="古蜀文化之源：三星堆文化"
+      />
     </>
   ),
 };

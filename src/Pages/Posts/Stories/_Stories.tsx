@@ -23,6 +23,7 @@ import Post_50 from "./Post_50";
 import Post_51 from "./Post_51";
 import Post_54 from "./Post_54";
 import Post_56 from "./Post_56";
+import Post_59 from "./Post_59";
 import Post_6 from "./Post_6";
 import Post_60 from "./Post_60";
 import Post_61 from "./Post_61";
@@ -69,6 +70,7 @@ const Stories = {
 
   Post_54,
   Post_56,
+  Post_59,
 
   Post_60,
   Post_61,
