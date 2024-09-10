@@ -29,9 +29,9 @@ export default function Footer() {
         <div className="foot-body">
           <div className="site-info">
             <div className="logo">
-              <div className="image">
+              {/* <div className="image">
                 <img src={SiteInfo.logo.image} alt="" />
-              </div>
+              </div> */}
               <div className="text">{SiteInfo.logo.text}</div>
             </div>
             <div className="brief">{SiteInfo.brief}</div>

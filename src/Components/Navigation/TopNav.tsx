@@ -25,9 +25,9 @@ export default function TopNav() {
         <div className="mask-left"></div>
         <div className="mask-right"></div>
         <a href="/" className="top-nav-logo">
-          <div className="top-nav-logo-image">
+          {/* <div className="top-nav-logo-image">
             <img src={SiteInfo.logo.image} alt="" />
-          </div>
+          </div> */}
           <div className="top-nav-logo-text">{SiteInfo.logo.text}</div>
         </a>
 

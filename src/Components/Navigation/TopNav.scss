@@ -38,6 +38,10 @@
       align-self: center;
       height: var(--nav-height);
       overflow: hidden;
+
+      img {
+        height: 28px;
+      }
     }
   }
 

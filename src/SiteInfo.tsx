@@ -1,6 +1,8 @@
 import Today from "./Components/Functions/Today"
 import Site from "./InfoTemplates/SiteInfoTemplate"
 import SocialMedia from "./InfoTemplates/SocialMedia"
+import LogoImage from "./assets/LogoImage.png"
+import Logo from "./assets/Logo.png"
 
 const social_medias: { [key: string]: SocialMedia } = {
   facebook: {
@@ -21,8 +23,8 @@ const SiteInfo: Site = {
   title: "中華文化有意思",
 
   logo: {
-    image: "https://i.pinimg.com/564x/2c/e1/e4/2ce1e48ee3409c69fb55ef47e21b73a9.jpg",
-    text: (<strong className="ff-serif">中華文化有意思</strong>),
+    image: LogoImage,
+    text: (<img src={Logo}/>),
   },
 
   brief: "「中華文化有意思」是聯合出版集團旗下聯合電子出版有限公司創立的新品牌，提供一站式服務，從「中華非遺手工課」到「中華文化沉浸式體驗」，利用元宇宙（AR/VR/MR)和AI等高端科技，以全新的角度去體驗中國傳統文化和當代科技發展！ 現誠邀各位老師蒞臨，親身感受是次中華文化體驗日，攜手開創新的文化傳播道路。",

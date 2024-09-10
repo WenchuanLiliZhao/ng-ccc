@@ -13,7 +13,7 @@ const Channel_Home: Template_Page = {
     title: "首頁",
     key: "",
     brief: `${SiteInfo.brief}`,
-    title_display: <>{SiteInfo.logo.text}</>,
+    title_display: <>{SiteInfo.title}</>,
     label: `聯合電子出版`,
     latest_update: SiteInfo.latest_update,
     front: (
