@@ -24,7 +24,7 @@ const Channel_Home: Template_Page = {
   content: (
     <>
       <Section_SlidingCards
-        cards={[Posts.Post_8, Posts.Post_3, Posts.Post_29, Posts.Post_41]}
+        cards={[Posts.Post_59, Posts.Post_3, Posts.Post_29, Posts.Post_41]}
       />
 
       <PageSection
