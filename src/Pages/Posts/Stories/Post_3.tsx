@@ -12,7 +12,7 @@ const Post_3: Template_Page = {
     title: "「中華文化有意思」從何而來？",
     key: "post_3",
     cover:
-      "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Faf83eaeb-cb25-4274-875a-4a0e39b7bf16%2F1db6bc78-a631-41b3-af5a-44f03c12db9c%2Fthe-cleveland-museum-of-art-xvMkkWTUPv8-unsplash.jpg?table=block&id=a549e818-be37-4702-982a-8e561ef0c756&spaceId=af83eaeb-cb25-4274-875a-4a0e39b7bf16&width=2000&userId=7c4db173-7f91-40b4-af63-80b8f7b211bd&cache=v2",
+      "https://i.pinimg.com/1200x/32/f5/ad/32f5ad100f4298e08fd54aa09c6e049a.jpg",
     latest_update: [2024, 9, 3],
     brief:
       "中華文化是多樣且複雜的。我們強調摒棄刻板印象，以更全面的眼光理解這一文化的重要性。中華文化並非單一的道統，而是一個包羅萬象、充滿各式觀點的龐大體系，涉及詩歌、音樂、藝術、哲學等多個領域。了解中華文化的最佳途徑是透過閱讀、觀賞、聆聽和旅行，以遊玩的心態探索其中的趣味。我們通過多元的學習方式，如電子書、角色扮演及非遺手工等，鼓勵年輕人感受中華文化的魅力。總之，真正欣賞中華文化需要深入探索與反思，並在其中尋找自我表達的方式。",
