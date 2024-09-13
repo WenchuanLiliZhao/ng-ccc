@@ -48,7 +48,7 @@ const AllNews: { [key: string]:  Template_News} = {
   news_7: {
     info: {
       title: "「中華文化有意思」品牌在港發布 助力中華文化傳播",
-      key: "https://m.chinanews.com/wap/detail/chs/zw/10229792.shtml",
+      key: "http://www.news.cn/20240606/331461f8781c4c6696837f434afa2dfc/c.html",
       date: [2024,6,6],
       publication: "新華網",
       cover: undefined,
