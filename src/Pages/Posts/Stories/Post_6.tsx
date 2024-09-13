@@ -159,7 +159,7 @@ const Post_6: Template_Page = {
           art={
             <>
               <img
-                src="https://i.pinimg.com/1200x/f4/45/70/f44570ac647271186f07b6757868bfa3.jpg"
+                src="https://i.pinimg.com/originals/f0/0b/8c/f00b8cdb6a86386bed0402477093d297.png"
                 alt=""
               />
             </>
@@ -230,7 +230,7 @@ const Post_6: Template_Page = {
 
       <ContactCallout
         icon="🐼"
-        title="認識我們的國寶：大熊貓"
+        title="活動預定：《認識我們的國寶：大熊貓》"
         caption="9月2日至12月31日（即日起接受預訂）"
       />
     </>
