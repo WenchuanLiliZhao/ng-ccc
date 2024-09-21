@@ -52,6 +52,7 @@ const Channel_Home: Template_Page = {
             Posts.Post_6,
             Posts.Post_56,
             Posts.Post_59,
+            Posts.Post_58,
           ]}
         />
       </PageSection>
