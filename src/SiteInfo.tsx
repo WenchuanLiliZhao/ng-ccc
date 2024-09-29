@@ -16,6 +16,11 @@ const social_medias: { [key: string]: SocialMedia } = {
   instagramm: {
     title: "Instagramm",
     link: "https://www.instagram.com/nowbook_hk/"
+  },
+
+  wechat: {
+    title: "知書 HK",
+    link: "http://mp.weixin.qq.com/mp/homepage?__biz=MzUxNDY3MDA0NQ==&hid=7&sn=78400cd50d43032db956f463d52cf880&scene=18#wechat_redirect"
   }
 };
 
@@ -54,7 +59,7 @@ const SiteInfo: Site = {
     whatsApp: {
       title: "中華文化研習社WhatsApp群組",
       info: "https://chat.whatsapp.com/BNS5UfWFlak7z2v22Lh3Zn",
-    }
+    },
   }
 }
 

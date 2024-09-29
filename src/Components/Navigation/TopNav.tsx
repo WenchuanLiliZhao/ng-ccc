@@ -9,8 +9,9 @@ import SocialMedia from "../../InfoTemplates/SocialMedia";
 
 const channels = [
   Channels.Channel_Home,
-  Channels.Channel_Readings,
   Channels.Channel_Activity,
+  Channels.Channel_Readings,
+  
   Channels.Channel_Hardware,
   Channels.Channel_Resource,
   Channels.Channel_About,

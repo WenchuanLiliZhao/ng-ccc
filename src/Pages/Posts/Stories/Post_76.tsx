@@ -13,7 +13,7 @@ const Post_76: Template_Page = {
     key: "post_76",
     cover:
       "https://i.pinimg.com/originals/45/87/c6/4587c66947db2e24145434a320fd19e3.jpg",
-    latest_update: [2024, 9, 3],
+    latest_update: [2024, 9, 27],
     brief:
       "「熊貓抵港，萌動香江」紀念徽章NFT以大熊貓的形象為設計核心，融入了璀璨的維多利亞港景觀及香港的標誌性建築。每一個數字藏品都擁有獨一無二的編碼，基於先進的區塊鏈技術，確保其真實性、唯一性和不可篡改性。",
     authors: [
