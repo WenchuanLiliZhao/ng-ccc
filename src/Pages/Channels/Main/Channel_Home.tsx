@@ -34,10 +34,9 @@ const Channel_Home: Template_Page = {
         <Gallery_MediumCards
           columnCount={3}
           posts={[
+            Posts.Post_76,
             Posts.Post_5,
             Posts.Post_71,
-            Posts.Post_7,
-            // Posts.Post_WhereDidItComeFrom,
           ]}
         />
       </PageSection>
