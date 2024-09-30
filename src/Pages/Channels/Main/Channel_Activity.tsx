@@ -1,3 +1,5 @@
+import Gallery_MediumCards from "../../../Components/Sections/Galleries/MediumCards";
+import PageSection from "../../../Components/Sections/PageSection";
 import Section_SlidingCards from "../../../Components/Sections/SlidingCards";
 import SiteInfo from "../../../SiteInfo";
 import Template_Page from "../../_Templates/Template_Page";
@@ -19,6 +21,16 @@ const Channel_Activity: Template_Page = {
       <Section_SlidingCards
         cards={[Posts.Post_6, Posts.Post_76, Posts.Post_78]}
       />
+
+      <PageSection
+        title="近期活動"
+        brief="探索中華文化的奇趣魅力，開啟一段全新旅程"
+      >
+        <Gallery_MediumCards
+          columnCount={3}
+          posts={[Posts.Post_80]}
+        />
+      </PageSection>
     </>
   ),
 };
