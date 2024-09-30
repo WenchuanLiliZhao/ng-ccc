@@ -11,9 +11,9 @@ const Post_80: Template_Page = {
     key: "post_80",
     cover:
       "https://i.pinimg.com/originals/0b/62/31/0b6231a96151bceabb3d42a0597f53bd.jpg",
-    latest_update: [2024, 9, 27],
+    latest_update: [2024, 9, 11],
     brief:
-      "來了！他們來了！讓全港沸騰的「安安」和「可可」，帶著全國人民的深情祝福，於9月26日抵達香港。",
+      "以「文化+科技」的理念推動中華文化的學習和傳播，是「中華文化有意思」的品牌初衷。結合學科教學重點和閱讀學習熱點，用師生喜愛的方式推廣中華文化體驗活動，把中秋節過成「文化節+科技節」，是一個創新嘗試！",
     authors: [
       {
         data: Author_Suep,
