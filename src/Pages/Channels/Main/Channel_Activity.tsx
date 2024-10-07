@@ -1,3 +1,4 @@
+import Gallery_BigCards from "../../../Components/Sections/Galleries/BigCards";
 import Gallery_MediumCards from "../../../Components/Sections/Galleries/MediumCards";
 import PageSection from "../../../Components/Sections/PageSection";
 import Section_SlidingCards from "../../../Components/Sections/SlidingCards";
@@ -28,7 +29,18 @@ const Channel_Activity: Template_Page = {
       >
         <Gallery_MediumCards
           columnCount={3}
-          posts={[Posts.Post_80, Posts.Post_82]}
+          posts={[Posts.Post_80, Posts.Post_82, Posts.Post_87]}
+        />
+      </PageSection>
+
+      <PageSection
+        title={"更多活動"}
+        brief={"即將舉行的精彩活動，帶你體驗不一樣的文化魅力"}>
+        <Gallery_BigCards
+          posts={[
+            Posts.Post_88,
+            Posts.Post_86,
+          ]}
         />
       </PageSection>
     </>

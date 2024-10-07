@@ -2,6 +2,8 @@ import SiteInfo from "../../../SiteInfo";
 import Sec from "../../_Templates/Layouts/InArticle/_ArticleSection";
 import Template_Page from "../../_Templates/Template_Page";
 
+
+
 const Channel_About: Template_Page = {
   info: {
     title: "關於",
@@ -16,6 +18,7 @@ const Channel_About: Template_Page = {
     <>
       <Sec>
         <h2 id="-">公司簡介</h2>
+
         <p>
           <strong>聯合電子出版有限公司</strong>
           立足香港、背靠內地、面向海外，從事數字化內容的生產和運營。我們依託聯合出版集團旗下三聯、中華、商務、萬里、新雅、中和等子公司資源優勢，兼收並蓄港台和內地優質華文內容，擁有最具規模、最多元化的電子書、有聲書庫，藉助數字平台之力和香港區位優勢，面向港澳乃至全球開展運營，為用戶提供華文數字閱讀資源及知識服務。旗下自營品牌包括「知書APP」、「知書閱聽圖書館」等。
