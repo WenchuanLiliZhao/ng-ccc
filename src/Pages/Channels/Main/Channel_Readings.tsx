@@ -11,21 +11,16 @@ const Channel_Readings: Template_Page = {
     title: "閱讀",
     key: "nblib",
     title_display: <>閱讀</>,
-    brief:
-      "「閱讀使人充實，會談使人敏捷，寫作與筆記使人精確。」",
+    brief: "「閱讀使人充實，會談使人敏捷，寫作與筆記使人精確。」",
     // label: `${SiteInfo.title}`,
     label: "Coming Soon",
     latest_update: SiteInfo.latest_update,
   },
   content: (
     <>
-      <PageSection
-        title={" "}
-        brief={" "}
-      >
-        <Gallery_BigCards posts={[Posts.Post_84, Posts.Post_86]} />
+      <PageSection title={" "} brief={" "}>
+        <Gallery_BigCards posts={[Posts.Post_84, Posts.Post_91, Posts.Post_88]} />
       </PageSection>
-      
     </>
   ),
 };
