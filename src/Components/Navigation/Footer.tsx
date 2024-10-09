@@ -7,9 +7,9 @@ import Divider_LatestUpdate from "../Divider/LatestUpdate";
 import "./Footer.scss";
 
 const footerChannels = [
+  Channels.Channel_Home,
   Channels.Channel_Activity,
   Channels.Channel_Readings,
-  Posts.Post_8,
 ];
 
 const footerSocialMedia = Object.values(SiteInfo.social_medias);
