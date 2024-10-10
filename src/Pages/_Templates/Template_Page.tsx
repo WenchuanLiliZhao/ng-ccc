@@ -1,4 +1,4 @@
-import Template_AuthorsInPost from "./Template_AuthorsInPost"
+import Template_Author from "./Template_AuthorsInPost"
 
 interface Template_Page {
   info: {
@@ -14,7 +14,7 @@ interface Template_Page {
 
     showHeader?: boolean,
     title_display?: JSX.Element,
-    authors?: Template_AuthorsInPost[],
+    authors?: Template_Author[],
     
     tags?: Template_Page[],
   },

@@ -6,7 +6,7 @@ import PageBody from "../_Template_PageBody";
 import Tag from "../../../Components/Inlines/Tag";
 import Divider_Wave from "../../../Components/Divider/Wave";
 import SiteInfo from "../../../SiteInfo";
-import Template_AuthorsInPost from "../Template_AuthorsInPost";
+import Template_Author from "../Template_AuthorsInPost";
 import DateFormatter from "../../../Components/Functions/DateFormatter";
 
 interface Props {
@@ -43,7 +43,7 @@ const PostLayout: React.FC<Props> = ({ data }) => {
                 <div className="caption">
                   <span className="authors">
                     {data.info.authors?.map(
-                      (item: Template_AuthorsInPost, i: number) => (
+                      (item: Template_Author, i: number) => (
                         <span className="author" key={`${item}${i}`}>
                           <span className="name">{item.data.info.title}</span>
                         </span>

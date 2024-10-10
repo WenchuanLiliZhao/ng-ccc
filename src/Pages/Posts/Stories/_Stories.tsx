@@ -46,8 +46,11 @@ import Post_84 from "./Post_84";
 import Post_86 from "./Post_86";
 import Post_87 from "./Post_87";
 import Post_88 from "./Post_88";
+import Post_89 from "./Post_89";
 import Post_91 from "./Post_91";
 import Post_92 from "./Post_92";
+import Post_94 from "./Post_94";
+import Post_95 from "./Post_95";
 
 const Stories = {
   Post_3,
@@ -97,8 +100,12 @@ const Stories = {
   Post_86,
   Post_87,
   Post_88,
+  Post_89,
   Post_91,
   Post_92,
+  
+  Post_94,
+  Post_95,
 };
 
 export default Stories

@@ -1,4 +1,5 @@
 import Gallery_BigCards from "../../../Components/Sections/Galleries/BigCards";
+import Gallery_MediumCards from "../../../Components/Sections/Galleries/MediumCards";
 import PageSection from "../../../Components/Sections/PageSection";
 import SiteInfo from "../../../SiteInfo";
 // import Sec from "../../_Templates/Layouts/InArticle/_ArticleSection";
@@ -19,7 +20,25 @@ const Channel_Readings: Template_Page = {
   content: (
     <>
       <PageSection title={" "} brief={" "}>
-        <Gallery_BigCards posts={[Posts.Post_84, Posts.Post_92, Posts.Post_91, Posts.Post_88]} />
+        <Gallery_BigCards posts={[Posts.Post_84, Posts.Post_92,]} />
+      </PageSection>
+
+      <PageSection
+        title="閱讀活動"
+        brief="探索中華文化的奇趣魅力，開啟一段全新旅程"
+      >
+        <Gallery_MediumCards
+          columnCount={3}
+          posts={[
+            Posts.Post_95,
+            Posts.Post_94,
+            Posts.Post_89,
+          ]}
+        />
+      </PageSection>
+
+      <PageSection title={" "} brief={" "}>
+        <Gallery_BigCards posts={[Posts.Post_91, Posts.Post_88]} />
       </PageSection>
     </>
   ),
