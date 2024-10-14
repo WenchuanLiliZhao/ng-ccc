@@ -7,7 +7,7 @@ const Post_66: Template_Page = {
     key: "post_66",
     brief: "Sed bibendum leo quam, sit amet consectetur orci elementum sit amet",
     latest_update: [2024, 8, 22],
-    cover: "https://images.unsplash.com/photo-1507413245164-6160d8298b31?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    cover: "https://i.pinimg.com/originals/4c/b7/84/4cb7845eeefbf70c5de7693dbabe690c.jpg",
     label: undefined,
     front: undefined,
     showHeader: undefined,

@@ -1,5 +1,7 @@
 // import Template_Page from "../../_Templates/Template_Page";
 import Post_10 from "./Post_10";
+import Post_100 from "./Post_100";
+import Post_101 from "./Post_101";
 import Post_11 from "./Post_11";
 import Post_12 from "./Post_12";
 import Post_13 from "./Post_13";
@@ -51,6 +53,10 @@ import Post_91 from "./Post_91";
 import Post_92 from "./Post_92";
 import Post_94 from "./Post_94";
 import Post_95 from "./Post_95";
+import Post_96 from "./Post_96";
+import Post_97 from "./Post_97";
+import Post_98 from "./Post_98";
+import Post_99 from "./Post_99";
 
 const Stories = {
   Post_3,
@@ -106,6 +112,14 @@ const Stories = {
   
   Post_94,
   Post_95,
+
+  Post_96,
+  Post_97,
+
+  Post_98,
+  Post_99,
+  Post_100,
+  Post_101,
 };
 
 export default Stories

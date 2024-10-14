@@ -1,13 +1,14 @@
+import Redirect from "../../../Components/Links/Redirect";
 import Template_Page from "../../_Templates/Template_Page";
 import Authors from "../../Authors/_Authors";
 
 const Post_65: Template_Page = {
   info: {
-    title: "人文與科學",
+    title: "STEM",
     key: "post_65",
-    brief: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque semper pulvinar sagittis. Sed eleifend malesuada tempor.",
+    brief: "知書閱聽圖書館歷年「總編輯薦書」暨2024學年「學科好書」推薦書單",
     latest_update: [2024, 8, 22],
-    cover: "https://images.unsplash.com/photo-1518663392635-94580fd4ba4e?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    cover: "https://i.pinimg.com/originals/1d/2c/e4/1d2ce48d0d0005ac96784f0c91385226.jpg",
     label: undefined,
     front: undefined,
     showHeader: undefined,
@@ -19,7 +20,8 @@ const Post_65: Template_Page = {
     ],
     tags: undefined
   },
-  content: (<></>)
+  content: (<>
+  <Redirect link={"https://docs.google.com/spreadsheets/d/1zPRWMpWw35uR2ou1Ju7s8UaRwMBwu0rC79yjBUEuGas/edit?gid=492263166#gid=492263166"} /></>)
 }
 
 export default Post_65
