@@ -10,6 +10,7 @@ const footerChannels = [
   Channels.Channel_Home,
   Channels.Channel_Activity,
   Channels.Channel_Readings,
+  Channels.Channel_News,
 ];
 
 const footerSocialMedia = Object.values(SiteInfo.social_medias);

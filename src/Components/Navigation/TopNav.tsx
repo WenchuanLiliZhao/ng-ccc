@@ -12,8 +12,11 @@ const channels = [
   Channels.Channel_Activity,
   Channels.Channel_Readings,
   
-  Channels.Channel_Hardware,
+  // Channels.Channel_Hardware,
   Channels.Channel_Resource,
+
+  Channels.Channel_News,
+
   Channels.Channel_About,
 ];
 
