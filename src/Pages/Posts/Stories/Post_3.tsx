@@ -9,7 +9,7 @@ import Post_17 from "./Post_17";
 
 const Post_3: Template_Page = {
   info: {
-    title: "「中華文化有意思」從何而來？",
+    title: "中華文化有意思",
     key: "post_3",
     cover:
       "https://i.pinimg.com/1200x/32/f5/ad/32f5ad100f4298e08fd54aa09c6e049a.jpg",
