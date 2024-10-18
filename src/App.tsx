@@ -7,6 +7,7 @@ import ChannelLayout from "./Pages/_Templates/Layouts/ChannelLayout";
 import Template_Page from "./Pages/_Templates/Template_Page";
 import Posts from "./Pages/Posts/_Posts";
 import PostLayout from "./Pages/_Templates/Layouts/PostLayout";
+import { HelmetProvider } from 'react-helmet-async';
 
 function App() {
   useState(() => {
@@ -20,7 +21,7 @@ function App() {
   }, []);
 
   return (
-    <>
+    <HelmetProvider>
       <BrowserRouter>
         <Routes>
           {/* <Route
@@ -68,7 +69,7 @@ function App() {
           ))}
         </Routes>
       </BrowserRouter>
-    </>
+    </HelmetProvider>
   );
 }
 

@@ -8,6 +8,7 @@ import Divider_Wave from "../../../Components/Divider/Wave";
 import SiteInfo from "../../../SiteInfo";
 import Template_Author from "../Template_AuthorsInPost";
 import DateFormatter from "../../../Components/Functions/DateFormatter";
+import LiliHelmet from "../../../Components/Functions/LiliHelmet";
 
 interface Props {
   data: Template_Page;
@@ -18,6 +19,7 @@ const PostLayout: React.FC<Props> = ({ data }) => {
 
   return (
     <>
+      <LiliHelmet data={data} />
       <PageBody>
         <div className="post-layout">
           {data.info.front != null ? data.info.front : <></>}
