@@ -18,7 +18,7 @@ const Post_65: Template_Page = {
         data: Authors.Author_Suep
       }
     ],
-    tags: undefined
+    keywords: undefined
   },
   content: (<>
   <Redirect link={"https://docs.google.com/spreadsheets/d/1zPRWMpWw35uR2ou1Ju7s8UaRwMBwu0rC79yjBUEuGas/edit?gid=492263166#gid=492263166"} /></>)

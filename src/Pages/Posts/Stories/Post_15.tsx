@@ -17,7 +17,7 @@ const Post_15: Template_Page = {
         data: Authors.Author_Suep
       }
     ],
-    tags: undefined
+    keywords: undefined
   },
   content: (<>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam corporis rerum perferendis vel autem, ex facilis repellat nemo numquam nesciunt quas, totam molestiae? Voluptatibus distinctio neque consequuntur ducimus ipsa ea!</p>

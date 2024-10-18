@@ -69,10 +69,10 @@ const PostLayout: React.FC<Props> = ({ data }) => {
           <div className="end">
             <div className="article-tags">
               <div className="container">
-                {data.info.tags != undefined ? (
+                {data.info.keywords != undefined ? (
                   <>
-                    {data.info.tags.map((item: Template_Page, i: number) => (
-                      <Tag key={`${item}${i}`} data={item} size={14} />
+                    {data.info.keywords.map((item: string, i: number) => (
+                      <Tag key={`${item}${i}`} tagName={item} size={14} />
                     ))}
                   </>
                 ) : (

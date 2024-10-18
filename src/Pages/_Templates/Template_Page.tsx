@@ -16,7 +16,7 @@ interface Template_Page {
     title_display?: JSX.Element,
     authors?: Template_Author[],
     
-    tags?: Template_Page[],
+    keywords?: string[],
   },
 
   content: JSX.Element | JSX.Element[],

@@ -1,12 +1,12 @@
 import "./Tag.scss"
-import Template_Page from "../../Pages/_Templates/Template_Page";
+// import Template_Page from "../../Pages/_Templates/Template_Page";
 
 interface Props {
-  data: Template_Page;
+  tagName: string;
   size: 12 | 14 | 16;
 }
 
-const Tag: React.FC<Props> = ({ data, size }) => {
+const Tag: React.FC<Props> = ({ tagName: data, size }) => {
   return (
     <span
       className="inline-tag"
@@ -14,7 +14,7 @@ const Tag: React.FC<Props> = ({ data, size }) => {
         fontSize: `${size}px`,
       }}
     >
-      {data.info.title}
+      {data}
     </span>
   )
 }

@@ -13,7 +13,7 @@ const Post_51: Template_Page = {
     showHeader: undefined,
     title_display: undefined,
     authors: undefined,
-    tags: undefined
+    keywords: undefined
   },
   content: (<></>)
 }

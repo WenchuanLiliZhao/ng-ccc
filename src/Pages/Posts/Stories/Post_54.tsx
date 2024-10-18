@@ -19,7 +19,7 @@ const Post_54: Template_Page = {
         data: Authors.Author_Suep
       }
     ],
-    tags: undefined
+    keywords: undefined
   },
   content: (<>
     <>

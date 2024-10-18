@@ -20,7 +20,7 @@ const Channel_News: Template_Page = {
     showHeader: undefined,
     title_display: <>媒體報導</>,
     authors: undefined,
-    tags: undefined,
+    keywords: undefined,
   },
   content: (
     <>

@@ -22,7 +22,7 @@ const Post_12: Template_Page = {
         data: Authors.Author_Suep,
       },
     ],
-    tags: undefined,
+    keywords: undefined,
   },
   content: (
     <>

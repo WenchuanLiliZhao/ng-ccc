@@ -16,7 +16,7 @@ const Post_14: Template_Page = {
     authors: [
       {data: Authors.Author_Suep}
     ],
-    tags: undefined
+    keywords: undefined
   },
   content: (<>
   </>)

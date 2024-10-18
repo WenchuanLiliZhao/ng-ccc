@@ -3,6 +3,7 @@ import Site from "./InfoTemplates/SiteInfoTemplate"
 import SocialMedia from "./InfoTemplates/SocialMedia"
 import LogoImage from "./assets/LogoImage.png"
 import Logo from "./assets/Logo.png"
+import Author_Suep from "./Pages/Authors/Author_Suep"
 
 const social_medias: { [key: string]: SocialMedia } = {
   facebook: {
@@ -26,6 +27,10 @@ const social_medias: { [key: string]: SocialMedia } = {
 
 const SiteInfo: Site = {
   title: "中華文化有意思",
+
+  url: "https://charmingchineseculture.com/",
+
+  author: Author_Suep,
 
   logo: {
     image: LogoImage,
