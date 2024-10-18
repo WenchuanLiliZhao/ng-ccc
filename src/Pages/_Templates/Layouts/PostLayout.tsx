@@ -3,8 +3,8 @@ import "./PostLayout.scss";
 import React from "react";
 import Template_Page from "../Template_Page";
 import PageBody from "../_Template_PageBody";
-import Tag from "../../../Components/Inlines/Tag";
-import Divider_Wave from "../../../Components/Divider/Wave";
+// import Tag from "../../../Components/Inlines/Tag";
+// import Divider_Wave from "../../../Components/Divider/Wave";
 import SiteInfo from "../../../SiteInfo";
 import Template_Author from "../Template_AuthorsInPost";
 import DateFormatter from "../../../Components/Functions/DateFormatter";
@@ -69,7 +69,7 @@ const PostLayout: React.FC<Props> = ({ data }) => {
           <article className="post-body">{data.content}</article>
 
           <div className="end">
-            <div className="article-tags">
+            {/* <div className="article-tags">
               <div className="container">
                 {data.info.keywords != undefined ? (
                   <>
@@ -81,8 +81,8 @@ const PostLayout: React.FC<Props> = ({ data }) => {
                   ""
                 )}
               </div>
-            </div>
-            <Divider_Wave />
+            </div> */}
+            {/* <Divider_Wave /> */}
           </div>
         </div>
       </PageBody>
