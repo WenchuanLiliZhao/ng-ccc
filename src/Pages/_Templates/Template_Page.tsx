@@ -1,3 +1,5 @@
+// Template_Page.tsx
+
 import Template_Author from "./Template_AuthorsInPost"
 
 interface Template_Page {

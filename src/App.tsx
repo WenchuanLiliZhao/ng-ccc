@@ -23,6 +23,7 @@ function App() {
   return (
     <HelmetProvider>
       <BrowserRouter>
+
         <Routes>
           {/* <Route
             key="*"
