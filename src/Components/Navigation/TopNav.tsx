@@ -5,7 +5,7 @@ import NavLink2Top from "../Links/NavLink2Top";
 import SiteInfo from "../../SiteInfo";
 import Channels from "../../Pages/Channels/_Channels";
 import { toggleClass } from "../Functions/ToggleClassName";
-import SocialMedia from "../../InfoTemplates/SocialMedia";
+import { SocialMedia } from "../../InfoTemplates/SiteInfoTemplate";
 
 const channels = [
   Channels.Channel_Home,

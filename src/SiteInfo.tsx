@@ -1,11 +1,10 @@
 import Today from "./Components/Functions/Today"
-import Site from "./InfoTemplates/SiteInfoTemplate"
-import SocialMedia from "./InfoTemplates/SocialMedia"
+import { SocialMedias, Site } from "./InfoTemplates/SiteInfoTemplate"
 import LogoImage from "./assets/LogoImage.png"
 import Logo from "./assets/Logo.png"
 import Author_Suep from "./Pages/Authors/Author_Suep"
 
-const social_medias: { [key: string]: SocialMedia } = {
+const social_medias: SocialMedias = {
   facebook: {
     title: "Facebook",
     link: "https://www.facebook.com/profile.php?id=61559566926404"

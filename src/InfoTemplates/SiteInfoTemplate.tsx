@@ -1,5 +1,9 @@
 import Template_Page from "../Pages/_Templates/Template_Page"
-import SocialMedia from "./SocialMedia"
+
+interface SocialMedia {
+  title: string,
+  link: string,
+}
 
 interface SocialMedias {
   [platform: string]: SocialMedia
@@ -7,7 +11,6 @@ interface SocialMedias {
 
 interface Site {
   title: string,
-
 
   author: Template_Page,
 
@@ -32,4 +35,4 @@ interface Site {
    } },
 }
 
-export default Site
+export type { SocialMedia, SocialMedias, Site }

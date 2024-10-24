@@ -1,4 +1,4 @@
-import SocialMedia from "../../InfoTemplates/SocialMedia";
+import { SocialMedia } from "../../InfoTemplates/SiteInfoTemplate";
 import Template_Page from "../../Pages/_Templates/Template_Page";
 import Channels from "../../Pages/Channels/_Channels";
 import Posts from "../../Pages/Posts/_Posts";
@@ -12,8 +12,6 @@ const footerChannels = [
   Channels.Channel_Readings,
   Channels.Channel_News,
 ];
-
-const footerSocialMedia = Object.values(SiteInfo.social_medias);
 
 const footerOthers = [
   Channels.Channel_About,
@@ -54,7 +52,7 @@ export default function Footer() {
 
             <div className="group">
               <div className="title">社交媒體</div>
-              {footerSocialMedia.map((item: SocialMedia, i: number) => (
+              {Object.values(SiteInfo.social_medias).map((item: SocialMedia, i: number) => (
                 <a
                   key={`${item}${i}`}
                   href={`${item.link}`}
