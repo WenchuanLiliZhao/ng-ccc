@@ -22,8 +22,6 @@ const PageBody: React.FC<Props> = ({ children }) => {
         </main>
         <Footer />
       </div>
-
-      {/* <FixBtnsOnPage /> */}
     </div>
   </>)
 }

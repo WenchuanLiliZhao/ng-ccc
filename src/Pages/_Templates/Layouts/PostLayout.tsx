@@ -24,7 +24,7 @@ const PostLayout: React.FC<Props> = ({ data }) => {
         <div className="post-layout">
           {data.info.front != null ? data.info.front : <></>}
 
-          <div className="post-header">
+          <header className="post-header">
             <div className="container">
               {data.info.label != null ? (
                 <>
@@ -64,26 +64,9 @@ const PostLayout: React.FC<Props> = ({ data }) => {
                 ""
               )}
             </div>
-          </div>
+          </header>
 
           <article className="post-body">{data.content}</article>
-
-          <div className="end">
-            {/* <div className="article-tags">
-              <div className="container">
-                {data.info.keywords != undefined ? (
-                  <>
-                    {data.info.keywords.map((item: string, i: number) => (
-                      <Tag key={`${item}${i}`} tagName={item} size={14} />
-                    ))}
-                  </>
-                ) : (
-                  ""
-                )}
-              </div>
-            </div> */}
-            {/* <Divider_Wave /> */}
-          </div>
         </div>
       </PageBody>
     </>

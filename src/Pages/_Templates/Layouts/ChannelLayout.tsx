@@ -11,7 +11,6 @@ interface Props {
 const ChannelLayout: React.FC<Props> = ({ data }) => {
   return (
     <>
-      {/* <LiliHelmet data={data} /> */}
       <PageBody>
         <>
           {data.info.front != null ? data.info.front : <></>}
