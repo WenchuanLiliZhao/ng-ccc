@@ -3,7 +3,7 @@ import Template_Page from "../../Pages/_Templates/Template_Page";
 import Channels from "../../Pages/Channels/_Channels";
 import Posts from "../../Pages/Posts/_Posts";
 import SiteInfo from "../../SiteInfo";
-import Divider_LatestUpdate from "../Divider/LatestUpdate";
+//import Divider_LatestUpdate from "../Divider/LatestUpdate";
 import "./Footer.scss";
 
 const footerChannels = [
@@ -23,7 +23,7 @@ export default function Footer() {
   return (
     <>
       <footer className="site-footer">
-        <Divider_LatestUpdate date={SiteInfo.latest_update} language={"en"} />
+        {/*<Divider_LatestUpdate date={SiteInfo.latest_update} language={"en"} />*/}
 
         <div className="foot-body">
           <div className="site-info">
